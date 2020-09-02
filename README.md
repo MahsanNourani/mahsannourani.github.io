@@ -39,7 +39,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `npm run deploy`
 
-Deploys the build to github pages (mahsannourani.github.io). To change URL, need to change "homepage" in the package.json. Also, the repository must have a branch called gh-pages.
+Deploys the build to github pages (mahsannourani.github.io). To change URL, need to change `homepage` in the package.json. Also, the repository must have a branch called `gh-pages`.
 
 ## Learn More
 
