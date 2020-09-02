@@ -1,0 +1,157 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+:root { 
+--snow-background: #E0e8f0;
+--blue-lake: #51a2d9;
+--blue-sky: #53c0f0;
+--ice: #b9e5f3;
+--red-cabin: #8a140e;
+--dark-lake: #1a57ba; 
+}
+
+body {
+  font-family: 'Overpass', sans-serif!important;
+  /* background-color: var(--snow-background); */
+}
+
+h4 {
+  font-size: 1.1rem!important;
+  font-family: 'Overpass', sans-serif;
+  /* font-weight: 900; */
+}
+
+h5 {
+  font-size: 1rem!important;
+  font-family: 'Overpass', sans-serif;
+  color:var(--dark-lake)
+
+}
+
+.card-columns {
+  padding: 0.75rem 0px!important;
+}
+
+.card {
+  padding: 0.75rem;
+  min-height: 385px;
+}
+
+.title-blues {
+  color: var(--red-cabin);
+}
+
+.project-info {
+  max-width: 100%!important;
+}
+
+.img-info {
+  width: 100%;
+}
+
+.publication-type {
+  background-color: var(--dark-lake)!important;
+  color: white!important;
+  opacity: 1!important;
+  border-color: var(--dark-lake)!important;
+  cursor: default!important;
+}
+.pub-type-title {
+  text-align: center;
+  padding: 8px 0px;
+}
+
+.list-group-item {
+  padding: .8rem .75rem;
+}
+
+#cv-btn {
+  font-size: 1rem!important;
+  /* color: #2559a6; */
+  color: white;
+  background-color: var(--red-cabin);
+  border: 1px solid var(--red-cabin);
+
+}
+
+.sidebar-div {
+  margin-right: 0!important;
+}
+
+@media (min-width:576px) {
+  h4 {
+    font-size: 1rem!important;
+  }
+
+  h5 {
+    font-size: 0.8rem!important;
+  }
+  .card-columns {
+    column-count: 2!important;
+  }
+  #image-div {
+    border-top: 1px solid var(--red-cabin);
+    border-right: 1px solid var(--red-cabin);
+    border-top-right-radius: 1px;
+  }
+}
+
+@media (min-width:768px) {
+  h4 {
+    font-size: 1rem!important;
+  }
+
+  h5 {
+    font-size: 0.8rem!important;
+  }
+
+  .sticky {
+    position: sticky!important;
+    top: 0;
+    z-index: 40;
+    bottom: 10px;
+  }
+  .project-info {
+    max-width: 80%!important;
+  }
+
+  .img-info {
+    width: 70%;
+  }
+  .navbar-brand {
+    display: none!important;
+  }
+}
+/* Because the app is weird! */
+@media (min-width:930px) {
+  h4 {
+    font-size: 1.1rem!important;
+  }
+
+  h5 {
+    font-size: 0.9rem!important;
+  }
+}
+
+@media (min-width:992px) {
+  h4 {
+    font-size: 1.3rem!important;
+  }
+
+  h5 {
+    font-size: 1.1rem!important;
+  }
+  .sidebar-div {
+    margin-right: -15px!important;
+  }
+}
+
+@media (min-width:1200px) {
+  h4 {
+    font-size: 1.5rem!important;
+  }
+
+  h5 {
+    font-size: 1rem!important;
+  }
+}

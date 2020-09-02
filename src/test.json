@@ -1,0 +1,102 @@
+[
+    {
+        "title": "Journals, Peer-Reviewed Conferences",
+        "list" : [
+            {
+                "harvardCitation" : "Bolte,F., <b class='title-blues'>Nourani, M.</b>, Ragan, E.D., and Bruckner, S., 2020. Splitstreams: A visual metaphor for evolving hierarchies. In IEEE transactions on visualization and computer graphics (TVCG). doi.org/10.1109/TVCG.2020.2973564",
+                "link": "https://ieeexplore.ieee.org/document/8998355",
+                "nickname": "BolteSplits2020",
+                "type": "Journal Article",
+                "bibtex": "@article{bolte2020splitstreams
+                    author: 
+                    {Bolte, Fabian and Nourani, Mahsan and Ragan, Eric D. and Bruckner, Stefan},
+                    journal: 
+                    {IEEE Transactions on Visualization and Computer Graphics},
+                    title: 
+                    {{SplitStreams}: {A} Visual Metaphor for Evolving Hierarchies},
+                    year: 
+                    {2020},
+                    doi: 
+                    {10.1109/TVCG.2020.2973564},
+                    issn: 
+                    {1077-2626},
+                    url: 
+                    {https://arxiv.org/pdf/2002.03891.pdf},
+                    keywords: 
+                    {Visualization, hierarchy data, time-varying data, streamgraphs, treemaps.}
+                    } "
+            },
+            {
+                "harvardCitation" : "<b class='title-blues'>Nourani, M.</b>, Kabir, S., Mohseni, S. and Ragan, E.D., 2019, October. The Effects of Meaningful and Meaningless Explanations on Trust and Perceived System Accuracy in Intelligent Systems. In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing (Vol. 7, No. 1, pp. 97-105).",
+                "link": "https://wvvw.aaai.org/ojs/index.php/HCOMP/article/view/5284",
+                "nickname": "NouraniCats2019",
+                "type": "Conference Paper",
+                "bibtex": "@inproceedings{nourani2019effects,
+                    title={The effects of meaningful and meaningless explanations on trust and perceived system accuracy in intelligent systems},
+                    author={Nourani, Mahsan and Kabir, Samia and Mohseni, Sina and Ragan, Eric D},
+                    booktitle={Proceedings of the AAAI Conference on Human Computation and Crowdsourcing},
+                    volume={7},
+                    number={1},
+                    pages={97--105},
+                    year={2019}
+                  }"
+
+            }
+        ]
+
+    },
+    {
+        "title": "Workshop papers, Extended Abstracts, and Presentations",
+        "list": [
+            {
+                "harvardCitation" : "<b class='title-blues'>Nourani, M.</b>, Honeycutt, D.R., Block, J.E., Roy, C., Rahman, T., Ragan, E.D., and Gogate, V., 2020. Investigating the Importance of First Impressions and Explainable AI with Interactive Video Analysis. CHI'20 Extended Abstracts on Human Factors in Computing Systems  .",
+                "link": "https://dl.acm.org/doi/abs/10.1145/3334480.3382967",
+                "nickname": "LBWPineapple2020",
+                "type": "Late-Breaking Work",
+                "bibtex": "@inproceedings{nourani2020investigating,
+                    title={Investigating the Importance of First Impressions and Explainable AI with Interactive Video Analysis},
+                    author={Nourani, Mahsan and Honeycutt, Donald R and Block, Jeremy E and Roy, Chiradeep and Rahman, Tahrima and Ragan, Eric D and Gogate, Vibhav},
+                    booktitle={Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems},
+                    pages={1--8},
+                    year={2020}
+                  }",
+                "demo": "https://youtu.be/7WYZRzJ_kwA"
+
+            },
+            {
+                "harvardCitation" : "Roy, C., Shanbhag, M., <b class='title-blues'>Nourani, M.</b>, Rahman, T., Kabir, S., Gogate, V., Ruozzi, N. and Ragan, E.D., 2019. Explainable Activity Recognition in Videos. In IUI Workshops.",
+                "link": "https://explainablesystems.comp.nus.edu.sg/2019/wp-content/uploads/2019/02/IUI19WS-ExSS2019-8.pdf",
+                "nickname": "RoyExSS2019",
+                "bibtex": "`@inproceedings{roy2019explainable,
+                    title={Explainable Activity Recognition in Videos.},
+                    author={Roy, Chiradeep and Shanbhag, Mahesh and Nourani, Mahsan and Rahman, Tahrima and Kabir, Samia and Gogate, Vibhav and Ruozzi, Nicholas and Ragan, Eric D},
+                    booktitle={IUI Workshops},
+                    year={2019}
+                  }`"
+
+            },
+            {
+                "harvardCitation" : "Roy, C., <b class='title-blues'>Nourani, M.</b>, Shanbhag, M., Kabir, S., Rahman, T., Ragan, E., Ruozzi, N. and Gogate, V. (2019). Explainable Activity Recognition in Videos using Dynamic Cutset Networks. 3rd Workshop of Tractable Probabilistic Modeling (TPM 2019)",
+                "link": "",
+                "nickname": ""
+
+            }
+        ]
+    },
+    {
+        "title": "Under-review (submitted to arXive)",
+        "list": [
+            {
+                "harvardCitation" : "<b class='title-blues'>Nourani, M.</b>, Roy, C., Rahman, T., Ragan, E.D., Ruozzi, N., and Gogate, V. 2020. Don't Explain without Verifying Veracity: An Evaluation of Explainable AI with Video Activity Recognition. arXiv:2005.02335",
+                "link": "https://arxiv.org/abs/2005.02335",
+                "nickname": "NouraniQcumber",
+                "bibtex": "`@article{nourani2020don,
+                    title={Don't Explain without Verifying Veracity: An Evaluation of Explainable AI with Video Activity Recognition},
+                    author={Nourani, Mahsan and Roy, Chiradeep and Rahman, Tahrima and Ragan, Eric D and Ruozzi, Nicholas and Gogate, Vibhav},
+                    journal={arXiv preprint arXiv:2005.02335},
+                    year={2020}
+                  }`"
+            }
+        ]
+    }
+]

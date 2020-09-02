@@ -1,0 +1,42 @@
+.iconStyle {
+    font-size: 1.2rem!important;
+    /* color: #2559a6; */
+    color: var(--snow-background);
+    background-color: var(--dark-lake);
+    border: 1px solid var(--dark-lake);
+  
+}
+
+.items {
+    color: var(--dark-lake);
+    font-size: 0.9rem!important;
+    font-family: 'Overpass', sans-serif;
+}
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+    .iconStyle {
+        font-size: 1.3rem!important;
+      }
+}
+/* Because the app is weird! */
+@media (min-width:930px) {
+    
+}
+
+@media (min-width:992px) {
+    .iconStyle {
+        font-size: 1.5rem;
+    }
+    .items {
+        font-size: 1.1rem!important;
+    }
+}
+
+@media (min-width:1200px) {
+    .items {
+        font-size: 1rem!important;
+    }
+}
