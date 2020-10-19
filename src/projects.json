@@ -51,6 +51,11 @@
                 "type":"Workshop",
                 "source":"https://trexvis.github.io/Workshop2020/index.html",
                 "color": "info"
+            },
+            {
+                "type":"Video",
+                "source":"https://screencast-o-matic.com/watch/cY6jerKCYZ",
+                "color":"danger"
             }
         ],
         "abstract":"Trust in XAI systems can be affected by different factors. The scope of explanations can affect how much of system weaknesses and strengths users view based on their experience with the system. Domain expertise can also affect the levels of trust and its changes over time. The goal of this project is to understand how domain expertise and order of weakness/strengths can affect user trust. Recently, a full paper focusing on this project has been accepted to AAAI HCOMP 2020. I find this topic so fascinating and timely that I am co-organizing an IEEE workshop to promote and encourage discussions across multiple disciplines."

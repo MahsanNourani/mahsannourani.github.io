@@ -3,20 +3,22 @@
         "title": "Journal and Peer-Reviewed Conference Papers",
         "list" : [
             {
-                "harvardCitation" : "<b class='title-blues'>Nourani, M.</b>, King, J.T., and Ragan, E.D., (accepted, 2020). The Role of Domain Expertise in User Trust and the Impact of First Impressions with Intelligent Systems.  In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing (AAAI HCOMP). pp 1-10.",
-                "link": "https://arxiv.org/abs/2008.09100",
+                "harvardCitation" : "<b class='title-blues'>Nourani, M.</b>, King, J.T., and Ragan, E.D., 2020, October. The Role of Domain Expertise in User Trust and the Impact of First Impressions with Intelligent Systems.  In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing (AAAI HCOMP). pp 1-10.",
+                "link": "https://www.aaai.org/ojs/index.php/HCOMP/article/view/7469",
                 "nickname": "NouraniBugs2020",
-                "type": "Conference Paper"
+                "type": "Conference Paper",
+                "video": "https://screencast-o-matic.com/watch/cY6jerKCYZ"
             },
             {
-                "harvardCitation" : "Honeycutt, D., <b class='title-blues'>Nourani, M.</b>, and Ragan, E. (accepted, 2020). Soliciting Human-in-the-Loop User Feedback for Interactive Machine Learning Reduces User Trust and Impressions of Model Accuracy. AAAI Conference on Human Computation and Crowdsourcing (AAAI HCOMP). pp 1-10.",
-                "link": "https://arxiv.org/abs/2008.12735",
+                "harvardCitation" : "Honeycutt, D., <b class='title-blues'>Nourani, M.</b>, and Ragan, E. 2020, October. Soliciting Human-in-the-Loop User Feedback for Interactive Machine Learning Reduces User Trust and Impressions of Model Accuracy. AAAI Conference on Human Computation and Crowdsourcing (AAAI HCOMP). pp 1-10.",
+                "link": "https://www.aaai.org/ojs/index.php/HCOMP/article/view/7464",
                 "nickname": "HoneycuttLoop2020",
-                "type": "Conference Paper"
+                "type": "Conference Paper",
+                "video": "https://screencast-o-matic.com/watch/cY6QrgKMb7"
             },
             {
-                "harvardCitation" : "Li, Q., Chu, S.L., Rao, N., and <b class='title-blues'>Nourani, M.</b> (accepted, 2020). Understanding the Effects of Explanation Types and User Motivations on Movie Recommender System Use. AAAI Conference on Human Computation and Crowdsourcing (AAAI HCOMP). pp 1-10.",
-                "link": "",
+                "harvardCitation" : "Li, Q., Chu, S.L., Rao, N., and <b class='title-blues'>Nourani, M.</b> 2020, October. Understanding the Effects of Explanation Types and User Motivations on Movie Recommender System Use. AAAI Conference on Human Computation and Crowdsourcing (AAAI HCOMP). pp 1-10.",
+                "link": "https://www.aaai.org/ojs/index.php/HCOMP/article/view/7466",
                 "nickname": "QingMovie2020",
                 "type": "Conference Paper"
             },
