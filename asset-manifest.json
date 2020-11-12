@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.7a7af4b4.chunk.css",
-    "main.js": "/static/js/main.e07dab58.chunk.js",
-    "main.js.map": "/static/js/main.e07dab58.chunk.js.map",
+    "main.js": "/static/js/main.09e98b4b.chunk.js",
+    "main.js.map": "/static/js/main.09e98b4b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f01603a9.js",
     "runtime-main.js.map": "/static/js/runtime-main.f01603a9.js.map",
     "static/css/2.b450f4ca.chunk.css": "/static/css/2.b450f4ca.chunk.css",
-    "static/js/2.19980c20.chunk.js": "/static/js/2.19980c20.chunk.js",
-    "static/js/2.19980c20.chunk.js.map": "/static/js/2.19980c20.chunk.js.map",
+    "static/js/2.7e554186.chunk.js": "/static/js/2.7e554186.chunk.js",
+    "static/js/2.7e554186.chunk.js.map": "/static/js/2.7e554186.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.04b626121639ae4cc3fbfd52c8c691e2.js": "/precache-manifest.04b626121639ae4cc3fbfd52c8c691e2.js",
+    "precache-manifest.c4d257627e18b12d293bc641959c4532.js": "/precache-manifest.c4d257627e18b12d293bc641959c4532.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.b450f4ca.chunk.css.map": "/static/css/2.b450f4ca.chunk.css.map",
     "static/css/main.7a7af4b4.chunk.css.map": "/static/css/main.7a7af4b4.chunk.css.map",
-    "static/js/2.19980c20.chunk.js.LICENSE.txt": "/static/js/2.19980c20.chunk.js.LICENSE.txt",
+    "static/js/2.7e554186.chunk.js.LICENSE.txt": "/static/js/2.7e554186.chunk.js.LICENSE.txt",
     "static/media/BolteSplits2020.pdf": "/static/media/BolteSplits2020.9579a534.pdf",
     "static/media/Bugs_1.png": "/static/media/Bugs_1.94e58944.png",
     "static/media/HoneycuttLoop2020.pdf": "/static/media/HoneycuttLoop2020.3df4ce5c.pdf",
     "static/media/LBWPineapple2020.pdf": "/static/media/LBWPineapple2020.ec4d672c.pdf",
-    "static/media/Mahsan_CV.pdf": "/static/media/Mahsan_CV.0e4a61b1.pdf",
+    "static/media/Mahsan_CV.pdf": "/static/media/Mahsan_CV.979cf7b3.pdf",
     "static/media/NouraniBugs2020.pdf": "/static/media/NouraniBugs2020.e8bb5ed1.pdf",
     "static/media/NouraniCats2019.pdf": "/static/media/NouraniCats2019.c6cf8c84.pdf",
     "static/media/NouraniQcumber.pdf": "/static/media/NouraniQcumber.4abf86b0.pdf",
@@ -30,14 +30,15 @@
     "static/media/Vis_3.png": "/static/media/Vis_3.b6c7363c.png",
     "static/media/XAI_1.png": "/static/media/XAI_1.59230c93.png",
     "static/media/XAI_2.png": "/static/media/XAI_2.042d7e88.png",
+    "static/media/XAI_3.png": "/static/media/XAI_3.52d2131b.png",
     "static/media/bolte.png": "/static/media/bolte.1f604fe2.png",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.f01603a9.js",
     "static/css/2.b450f4ca.chunk.css",
-    "static/js/2.19980c20.chunk.js",
+    "static/js/2.7e554186.chunk.js",
     "static/css/main.7a7af4b4.chunk.css",
-    "static/js/main.e07dab58.chunk.js"
+    "static/js/main.09e98b4b.chunk.js"
   ]
 }
