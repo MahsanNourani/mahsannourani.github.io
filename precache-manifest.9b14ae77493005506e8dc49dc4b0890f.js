@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "575a044b60ef295f57b84c6608f58186",
+    "revision": "11b73ad5a085d672a3c09c45b8918eed",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.b450f4ca.chunk.css"
   },
   {
-    "revision": "bee5173198b744ea8997",
+    "revision": "8d61ae7e9dc6f3e66355",
     "url": "/static/css/main.7a7af4b4.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.7e554186.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bee5173198b744ea8997",
-    "url": "/static/js/main.70816f3c.chunk.js"
+    "revision": "8d61ae7e9dc6f3e66355",
+    "url": "/static/js/main.cd5b1a18.chunk.js"
   },
   {
     "revision": "61d3044d55b1ab6ab842",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/LBWPineapple2020.ec4d672c.pdf"
   },
   {
-    "revision": "1398de9ca2572d617226df7d641729b8",
-    "url": "/static/media/Mahsan_CV.1398de9c.pdf"
+    "revision": "13ee58ba7287970d52b6cd95375d9e64",
+    "url": "/static/media/Mahsan_CV.13ee58ba.pdf"
   },
   {
     "revision": "e8bb5ed179309b685c0992a605cd7612",
