@@ -1,11 +1,15 @@
 [
     {
+        "date": "December 2020",
+        "text": "I got a full paper on our XAI project accepted to <a href='https://iui.acm.org/2021/' target = '_blank'>ACM IUI 2021 Conference</a>."
+    },
+    {
         "date": "October 2020",
         "text": "I am happy to announce that I was a recepient of the <i>Outstanding Achievement Awards</i> 2020 from the University of Florida, College of Engineering."
     },
     {
         "date": "October 2020",
-        "text": "<span>I am organizing the <a href='https://trexvis.github.io/Workshop2020/index.html'>TRust and EXpertise in Visual Analytics (TREX)</a> Workshop at <a href='http://ieeevis.org/year/2020/welcome'>IEEE VIS 2020</a>.</span>"
+        "text": "<span>I am organizing the <a target = '_blank' href='https://trexvis.github.io/Workshop2020/index.html'>TRust and EXpertise in Visual Analytics (TREX)</a> Workshop at <a href='http://ieeevis.org/year/2020/welcome' target = '_blank'>IEEE VIS 2020</a>.</span>"
     },
     {
         "date": "August 2020",

@@ -61,6 +61,34 @@
         "abstract":"Trust in XAI systems can be affected by different factors. The scope of explanations can affect how much of system weaknesses and strengths users view based on their experience with the system. Domain expertise can also affect the levels of trust and its changes over time. The goal of this project is to understand how domain expertise and order of weakness/strengths can affect user trust. Recently, a full paper focusing on this project has been accepted to AAAI HCOMP 2020. I find this topic so fascinating and timely that I am co-organizing an IEEE workshop to promote and encourage discussions across multiple disciplines."
     },
     {
+        "title": "SplitStreams: Visualization of Hierarchies over Time",
+        "about": "Novel visualization technique combining treemaps and streamgraphs to show evolution of hierarchies.",
+        "image": "bolte.png",
+        "links": [
+            {
+                "type":"Demo",
+                "source": "",
+                "color": "primary"
+            },
+            {
+                "type":"PDF",
+                "source":"BolteSplits2020.pdf",
+                "color": "primary"
+            },
+            {
+                "type":"Code",
+                "source":"https://github.com/cadanox/SplitStreams-Survey",
+                "color": "primary"
+            },
+            {
+                "type":"Video",
+                "source":"https://www.youtube.com/watch?v=mIadBtuBq1w&feature=youtu.be&t=5369",
+                "color": "danger"
+            } 
+        ],
+        "abstract":"Trees are famous data structures for showing hierarchies. In some cases, hierarchies change with time, makes it necessary to understand how they evolved. Previously, streamgraphs are used to show changes of hierarchies over time and treemaps are used for showing hierarchies at a certain point in time. In this project, we proposed SplitStreams, a new technique for visualizing changes of hierarchies over time by benefiting from both treemaps and streamgraphs. For this project, I evaluated the technique in an online user study by comparing SplitStreams with both previously existing methods (treemaps and streamgraphs)y and show that our technique maintains the benefits of each technique while avoiding their limitations."
+    },
+    {
         "title": "Video Activity Search Tool",
         "about": "Explainable query-building tool to search activites within a collection of videos.",
         "image": "Pineapple.png",
@@ -89,27 +117,17 @@
         "abstract":"Studying how explanations can affect user behaviors can be more valuable and interesting in cases with more open-ended, real-world scenarios. In this project, we aimed to allow the users build their own queries to ask the system. We designed an exploratory task of determining whether certain kitchen policies were followed within a week. The system would match or not match each existing video to a searched query and users could select to explore the video and system justifications for it further by clicking on each video thumbnail. We used this system to test how explantions and primacy effects affect user mental model and user-task performance."
     },
     {
-        "title": "SplitStreams: Visualization of Hierarchies over Time",
-        "about": "Novel visualization technique combining treemaps and streamgraphs to show evolution of hierarchies.",
-        "image": "bolte.png",
+        "title": "Global Visualization of DNN for Model Debugging",
+        "about": "Visual analytics tool with different levels of local and global explanation scopes for debugging purposes.",
+        "image": "XAI_3.png",
         "links": [
             {
-                "type":"Demo",
-                "source": "",
-                "color": "primary"
-            },
-            {
-                "type":"PDF",
-                "source":"BolteSplits2020.pdf",
-                "color": "primary"
-            },
-            {
-                "type":"Code",
-                "source":"https://github.com/cadanox/SplitStreams-Survey",
+                "type":"Demo (Work-in-progress)",
+                "source": "https://indie.cise.ufl.edu/GlobalVis/",
                 "color": "primary"
             }
         ],
-        "abstract":"Trees are famous data structures for showing hierarchies. In some cases, hierarchies change with time, makes it necessary to understand how they evolved. Previously, streamgraphs are used to show changes of hierarchies over time and treemaps are used for showing hierarchies at a certain point in time. In this project, we proposed SplitStreams, a new technique for visualizing changes of hierarchies over time by benefiting from both treemaps and streamgraphs. For this project, I evaluated the technique in an online user study by comparing SplitStreams with both previously existing methods (treemaps and streamgraphs)y and show that our technique maintains the benefits of each technique while avoiding their limitations."
+        "abstract": "This project is funded by DARPA XAI Program. The goal is to study and understand how different levels of explanation scope can influence user's understanding and mental model of an algorithm to detect errors as the first step in the model debugging cycle. I am trying to build an appropriate tool with global visualizations of the model at various levels. This is a work-in-progress and will be updated in the future."
     }
 
 ]

@@ -26,7 +26,8 @@
                 "harvardCitation" : "Bolte,F., <b class='title-blues'>Nourani, M.</b>, Ragan, E.D., and Bruckner, S., 2020. Splitstreams: A visual metaphor for evolving hierarchies. In IEEE transactions on visualization and computer graphics (TVCG). doi.org/10.1109/TVCG.2020.2973564",
                 "link": "https://ieeexplore.ieee.org/document/8998355",
                 "nickname": "BolteSplits2020",
-                "type": "Journal Article"
+                "type": "Journal Article",
+                "video": "https://www.youtube.com/watch?v=mIadBtuBq1w&feature=youtu.be&t=5369"
             },
             {
                 "harvardCitation" : "<b class='title-blues'>Nourani, M.</b>, Kabir, S., Mohseni, S. and Ragan, E.D., 2019, October. The Effects of Meaningful and Meaningless Explanations on Trust and Perceived System Accuracy in Intelligent Systems. In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing (Vol. 7, No. 1, pp. 97-105).",

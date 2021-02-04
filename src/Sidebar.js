@@ -21,24 +21,29 @@ export default class Sidebar extends Component {
              linkIcons: [
                  {
                      title: "E-mail",
-                     icon: "fa-envelope",
+                     icon: "fa fa-envelope",
                      href: "mailto:mahsannourani@ufl.edu"
                  },
                  {
                     title: "Linkedin",
-                    icon: "fa-linkedin",
+                    icon: "fab fa-linkedin",
                     href: "https://linkedin.com/in/mahsannourani"
                 },
                 {
                     title: "Github",
-                    icon: "fa-github",
+                    icon: "fab fa-github",
                     href: "https://github.com/MahsanNourani"
                 },
                 {
                     title: "Google Scholar",
-                    icon: "fa-graduation-cap",
+                    icon: "fa fa-graduation-cap",
                     href: "https://scholar.google.com/citations?user=tf4o6WYAAAAJ&hl=en&oi=ao"
-                }
+                },
+                {
+                    title: "Twitter",
+                    icon: "fab fa-twitter",
+                    href: "https://twitter.com/MahsanNourani"
+                },
 
              ]
         }
