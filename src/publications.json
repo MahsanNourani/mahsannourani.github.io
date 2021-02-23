@@ -3,6 +3,12 @@
         "title": "Journal and Peer-Reviewed Conference Papers",
         "list" : [
             {
+                "harvardCitation" : "<b class='title-blues'>Nourani, M.</b>, Roy, C., Block, J.E., Honeycutt, D.R., Rahman, T., Ragan, E.D., and Gogate, V., 2021. Anchoring Bias Affects Mental Models and User Reliance in Explainable AI Systems. To appear in ACM International Conference on Intelligent User Interfaces (ACM IUI). pp 1-11.",
+                "link": "",
+                "nickname": "NouraniPineapple2021",
+                "type": "Conference Paper"
+            },
+            {
                 "harvardCitation" : "<b class='title-blues'>Nourani, M.</b>, King, J.T., and Ragan, E.D., 2020, October. The Role of Domain Expertise in User Trust and the Impact of First Impressions with Intelligent Systems.  In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing (AAAI HCOMP). pp 1-10.",
                 "link": "https://www.aaai.org/ojs/index.php/HCOMP/article/view/7469",
                 "nickname": "NouraniBugs2020",
@@ -37,7 +43,6 @@
 
             }
         ]
-
     },
     {
         "title": "Workshop papers, Extended Abstracts, and Presentations",
