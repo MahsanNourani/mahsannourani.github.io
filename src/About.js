@@ -29,7 +29,7 @@ export default class About extends Component {
           preferred research methods are qualitative and quantitative user
           studies and empirical human evaluations for systems and techniques.
           Previously, I received my Bachelor's Degree in Computer Engineering
-          and Information Technology from Univeristy of Tehran in 2017.
+          and Information Technology from University of Tehran in 2017.
           <p className="mb-2"></p>
           If you are curious, my first name is pronounced as <i>'/mæhsʌn/'</i>.
           The 'h' is not silent, but I understand it can be challenging to
@@ -47,11 +47,13 @@ export default class About extends Component {
     );
     const news = NewsConent.map((newsItem, index) => {
       return (
-        <News
-          key={index}
-          date={newsItem.date}
-          newsText={ReactHtmlParser(newsItem.text)}
-        />
+        newsItem.show && (
+          <News
+            key={index}
+            date={newsItem.date}
+            newsText={ReactHtmlParser(newsItem.text)}
+          />
+        )
       );
     });
     return (

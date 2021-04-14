@@ -1,31 +1,53 @@
 [
     {
+        "date": "October 2021",
+        "text": "Co-organizing <a target = '_blank' href='https://trexvis.github.io/Workshop2021/index.html'>TREX: Workshop on Trust and Expertise in Visualization </a> at <a href='http://ieeevis.org/year/2021/welcome' target = '_blank'>IEEE VIS 2021</a> for the second time. Follow us on Twitter <a target = '_blank' href='https://twitter.com/trexinvis'>@TrexInVis</a> for the latest updates!",
+        "show": true
+    },
+    {
+        "date": "April 2021",
+        "text": "I received special recognition for an outstanding review from CHI 2021.",
+        "show": true
+    },
+    {
+        "date": "April 2021",
+        "text": "I am excited to have received the Gartner Group Graduate Fellowship from University of Florida!",
+        "show": true
+    },
+    {
         "date": "December 2020",
-        "text": "Our paper <i>\"Anchoring Bias Affects Mental Models and User Reliance in Explainable AI Systems\"</i>  was accepted to <a href='https://iui.acm.org/2021/' target = '_blank'>ACM IUI 2021 Conference</a> as a full paper."
+        "text": "Our paper <i>\"Anchoring Bias Affects Mental Models and User Reliance in Explainable AI Systems\"</i>  was accepted to <a href='https://iui.acm.org/2021/' target = '_blank'>ACM IUI 2021 Conference</a> as a full paper.",
+        "show": true
     },
     {
         "date": "October 2020",
-        "text": "I am happy to announce that I was a recepient of the <i>Outstanding Achievement Awards</i> 2020 from the University of Florida, College of Engineering."
+        "text": "I am happy to announce that I was a recepient of the <i>Outstanding Achievement Awards</i> 2020 from the University of Florida, College of Engineering.",
+        "show": true
     },
     {
         "date": "October 2020",
-        "text": "<span>I am organizing the <a target = '_blank' href='https://trexvis.github.io/Workshop2020/index.html'>TRust and EXpertise in Visual Analytics (TREX)</a> Workshop at <a href='http://ieeevis.org/year/2020/welcome' target = '_blank'>IEEE VIS 2020</a>.</span>"
+        "text": "<span>I am organizing the <a target = '_blank' href='https://trexvis.github.io/Workshop2020/index.html'>TRust and EXpertise in Visual Analytics (TREX)</a> Workshop at <a href='http://ieeevis.org/year/2020/welcome' target = '_blank'>IEEE VIS 2020</a>.</span>",
+        "show": true
     },
     {
         "date": "August 2020",
-        "text": "I got three full papers accepted to AAAI HCOMP 2020."
+        "text": "I got three full papers accepted to AAAI HCOMP 2020.",
+        "show": true
     },
     {
         "date": "May 2020",
-        "text": "I co-organized University of Florida affiliated Virtual CHI Presentation Day."
+        "text": "I co-organized University of Florida affiliated Virtual CHI Presentation Day.",
+        "show": false
     },
     {
         "date": "April 2020",
-        "text": "Our XAI work got published as a CHI 2020 Late-Breaking Work."
+        "text": "Our XAI work got published as a CHI 2020 Late-Breaking Work.",
+        "show": false
     },
     {
         "date": "February 2020",
-        "text": "Our SplitStreams paper got accepted to IEEE Transactions of Visualization and Computer Graphics."
+        "text": "Our SplitStreams paper got accepted to IEEE Transactions of Visualization and Computer Graphics.",
+        "show": false
     }
     
 ]

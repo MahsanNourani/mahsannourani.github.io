@@ -30,7 +30,7 @@
                 "color":"info"
             }
         ],
-        "abstract": "This project is funded by DARPA XAI Program. Machine Learning Systems are often times referred to as black-boxes, as their users cannot properly understand how to use them. eXplainable Artificail Intelligence (XAI) systems are therefore used to bring transparency for the end-users to help them understand such systems and build a better mental model of these systems. Through this project, we built an explainable tool for activity recognition in cooking videos, where the system provides yes/no responses to whether an activity is happening in a video, and the system's justification for that output. We then used this system to explore how presence and quality of explanations can affect certain user behaviors, such as user-task performance, trust, and understanding."
+        "abstract": "This project is funded by DARPA XAI Program. Machine Learning Systems are often times referred to as black-boxes, as their users cannot properly understand how to use them. eXplainable Artificial Intelligence (XAI) systems are therefore used to bring transparency for the end-users to help them understand such systems and build a better mental model of these systems. Through this project, we built an explainable tool for activity recognition in cooking videos, where the system provides yes/no responses to whether an activity is happening in a video, and the system's justification for that output. We then used this system to explore how presence and quality of explanations can affect certain user behaviors, such as user-task performance, trust, and understanding."
     },
     {
         "title": "Trust and Domain Expertise in Human-centered AI",
@@ -86,11 +86,11 @@
                 "color": "danger"
             } 
         ],
-        "abstract":"Trees are famous data structures for showing hierarchies. In some cases, hierarchies change with time, makes it necessary to understand how they evolved. Previously, streamgraphs are used to show changes of hierarchies over time and treemaps are used for showing hierarchies at a certain point in time. In this project, we proposed SplitStreams, a new technique for visualizing changes of hierarchies over time by benefiting from both treemaps and streamgraphs. For this project, I evaluated the technique in an online user study by comparing SplitStreams with both previously existing methods (treemaps and streamgraphs)y and show that our technique maintains the benefits of each technique while avoiding their limitations."
+        "abstract":"Trees are famous data structures for showing hierarchies. In some cases, hierarchies change with time, makes it necessary to understand how they evolved. Previously, streamgraphs are used to show changes of hierarchies over time and treemaps are used for showing hierarchies at a certain point in time. In this project, we proposed SplitStreams, a new technique for visualizing changes of hierarchies over time by benefiting from both treemaps and streamgraphs. For this project, I evaluated the technique in an online user study by comparing SplitStreams with both previously existing methods (treemaps and streamgraphs) and show that our technique maintains the benefits of each technique while avoiding their limitations."
     },
     {
         "title": "Video Activity Search Tool",
-        "about": "Explainable query-building tool to search activites within a collection of videos.",
+        "about": "Explainable query-building tool to search activities within a collection of videos.",
         "image": "Pineapple.png",
         "links": [
             {
@@ -114,7 +114,7 @@
                 "color": "danger"
             }
         ],
-        "abstract":"Studying how explanations can affect user behaviors can be more valuable and interesting in cases with more open-ended, real-world scenarios. In this project, we aimed to allow the users build their own queries to ask the system. We designed an exploratory task of determining whether certain kitchen policies were followed within a week. The system would match or not match each existing video to a searched query and users could select to explore the video and system justifications for it further by clicking on each video thumbnail. We used this system to test how explantions and primacy effects affect user mental model and user-task performance."
+        "abstract":"Studying how explanations can affect user behaviors can be more valuable and interesting in cases with more open-ended, real-world scenarios. In this project, we aimed to allow the users build their own queries to ask the system. We designed an exploratory task of determining whether certain kitchen policies were followed within a week. The system would match or not match each existing video to a searched query and users could select to explore the video and system justifications for it further by clicking on each video thumbnail. We used this system to test how explanations and primacy effects affect user mental model and user-task performance."
     },
     {
         "title": "Global Visualization of DNN for Model Debugging",
