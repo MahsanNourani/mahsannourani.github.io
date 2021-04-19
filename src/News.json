@@ -6,17 +6,22 @@
     },
     {
         "date": "April 2021",
+        "text": "Our full paper at ACM IUI'21 received an <b> Honorable Mention Award </b>; <a href='https://dl.acm.org/doi/10.1145/3397481.3450639' target = '_blank'>See the paper.</a>",
+        "show": true
+    },
+    {
+        "date": "April 2021",
         "text": "I received special recognition for an outstanding review from CHI 2021.",
         "show": true
     },
     {
         "date": "April 2021",
-        "text": "I am excited to have received the Gartner Group Graduate Fellowship from University of Florida!",
+        "text": "I am honored to have received the Gartner Group Graduate Fellowship from University of Florida, College of Engineering!",
         "show": true
     },
     {
         "date": "December 2020",
-        "text": "Our paper <i>\"Anchoring Bias Affects Mental Models and User Reliance in Explainable AI Systems\"</i>  was accepted to <a href='https://iui.acm.org/2021/' target = '_blank'>ACM IUI 2021 Conference</a> as a full paper.",
+        "text": "Our paper <i>\"Anchoring Bias Affects Mental Models and User Reliance in Explainable AI Systems\" </i>  was accepted to <a href='https://iui.acm.org/2021/' target = '_blank'>ACM IUI 2021 Conference</a> as a full paper.",
         "show": true
     },
     {
