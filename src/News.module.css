@@ -1,84 +1,84 @@
-
 /* Default here -- for smaller sizes */
+.link-color {
+  color: #1a58ba !important;
+}
 .pointer {
-    width: 50px;
-    height:30px;
-    font-size: 9px;
-    position: relative;
-    /* background: #2a59a6; */
-    background-color: var(--dark-lake);
-    margin-right: 19px;
-    color:var(--snow-background);
+  width: 50px;
+  height: 30px;
+  font-size: 9px;
+  position: relative;
+  /* background: #2a59a6; */
+  background-color: var(--dark-lake);
+  margin-right: 19px;
+  color: var(--snow-background);
 }
 .pointer:before {
-    content: "";
-    position: absolute;
-    right:-14px;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-left: 14px solid var(--dark-lake);
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
+  content: "";
+  position: absolute;
+  right: -14px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 14px solid var(--dark-lake);
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
 }
 
 .newsText {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 .newsItem {
-    background-color:var(--snow-background);
+  background-color: var(--snow-background);
 }
 
-@media (min-width:576px) {
-
+@media (min-width: 576px) {
 }
 
-@media (min-width:768px) {
-    .newsText {
-        font-size: 12px;
-    }
-    .pointer {
-        width: 120px;
-        height: 24px;
-        font-size: 15px;
-        margin-right:30px;
-    }
-    .pointer::before{
-        right: -15px;
-        border-left: 15px solid var(--dark-lake);
-        border-top: 12px solid transparent;
-        border-bottom: 12px solid transparent;
-    }
+@media (min-width: 768px) {
+  .newsText {
+    font-size: 12px;
+  }
+  .pointer {
+    width: 120px;
+    height: 24px;
+    font-size: 15px;
+    margin-right: 30px;
+  }
+  .pointer::before {
+    right: -15px;
+    border-left: 15px solid var(--dark-lake);
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+  }
 }
 /* Because the app is weird! */
-@media (min-width:930px) {
-    .newsText {
-        font-size: 16px;
-    }
-    .pointer {
-        height: 40px;
-        font-size: 15px;
-    }
-    .pointer:before {
-        border-top: 20px solid transparent;
-        border-bottom: 20px solid transparent;
-    }
+@media (min-width: 930px) {
+  .newsText {
+    font-size: 16px;
+  }
+  .pointer {
+    height: 40px;
+    font-size: 15px;
+  }
+  .pointer:before {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
 }
 
-@media (min-width:992px) {
-    .pointer {
-        margin-right: 40px;
-    }
+@media (min-width: 992px) {
+  .pointer {
+    margin-right: 40px;
+  }
 
-    .pointer:before {
-        right: -29px;
-        border-left: 29px solid var(--dark-lake);
-        border-top: 20px solid transparent;
-        border-bottom: 20px solid transparent;
-    }
+  .pointer:before {
+    right: -29px;
+    border-left: 29px solid var(--dark-lake);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
 }
 
-@media (min-width:1200px) {
-
+@media (min-width: 1200px) {
 }

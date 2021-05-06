@@ -3,7 +3,7 @@
         "title": "Journal and Peer-Reviewed Conference Papers",
         "list" : [
             {
-                "harvardCitation" : "<b class='title-blues'>Nourani, M.</b>, Roy, C., Block, J.E., Honeycutt, D.R., Rahman, T., Ragan, E.D., and Gogate, V., 2021. Anchoring Bias Affects Mental Models and User Reliance in Explainable AI Systems. To appear in ACM International Conference on Intelligent User Interfaces (ACM IUI). pp 1-11.",
+                "harvardCitation" : "<b class='title-blues'>Nourani, M.</b>, Roy, C., Block, J.E., Honeycutt, D.R., Rahman, T., Ragan, E. and Gogate, V., 2021, April. Anchoring Bias Affects Mental Model Formation and User Reliance in Explainable AI Systems. In 26th International Conference on Intelligent User Interfaces (pp. 340-350). 🏆 <b style='color:var(--red-cabin);'> <i>Best Paper Award, Honorable Mention</i></b>",
                 "link": "https://dl.acm.org/doi/10.1145/3397481.3450639",
                 "nickname": "NouraniPineapple2021",
                 "type": "Conference Paper",
