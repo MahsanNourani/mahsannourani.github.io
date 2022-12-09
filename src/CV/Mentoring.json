@@ -1,0 +1,22 @@
+[
+    {
+        "mentee": "Donald Honeycutt",
+        "startDate": "2019",
+        "endDate": "2021",
+        "position": "Ph.D. student at University of Florida",
+        "info": "As the project lead, I taught him the ropes of doing research in the first 2 years of their PhD."
+    },
+    {
+        "mentee": "Jeremy Block",
+        "startDate": "2019",
+        "endDate": "2021",
+        "position": "Ph.D. student at University of Florida",
+        "info": "As the project lead, I taught him the ropes of doing research in the first 2 years of their PhD."
+    },
+    {
+        "mentee": "Ezekiel Ajayi",
+        "endDate": "Summer 2019",
+        "position": "BE. student at University of Maryland, Baltimore County",
+        "info": "Mentor through the NSF's Research Experience for Undergraduates (REU) program."
+    }
+]

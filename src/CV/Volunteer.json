@@ -1,0 +1,39 @@
+[
+    {
+        "endDate": "October 2021",
+        "award": "Student Volunteer",
+        "awardType": "Remote",
+        "location": "IEEE Visualization & Visual Analytics Conference"
+    },
+    {
+        "endDate": "2021, 2020, 2019",
+        "award": "Student Volunteer",
+        "awardType": "University of Florida",
+        "location": "Prospective PhD stduent visit weekend"
+    },
+    {
+        "endDate": "November 2019",
+        "award": "Event Coordinator",
+        "awardType": "Belle Glade, Fl",
+        "location": "CodeIT Day Event (CS programming workshop for underpriviledged K12 students)"
+    },
+    {
+        "endDate": "Summer 2019",
+        "award": "Graduate Mentor and Coordinator",
+        "awardType": "University of Florida",
+        "location": "NSF IMHCI-REU Program"
+    },
+    {
+        "endDate": "2016",
+        "award": "Journalist",
+        "awardType": "University of Tehran",
+        "location": "ACM Student Chapter F1 Magazine"
+    },
+    {
+        "startDate": "2014",
+        "endDate": "2017",
+        "award": "Student Body & Member",
+        "awardType": "University of Tehran",
+        "location": "University of Tehran Game Club Student Chapter"
+    }
+]

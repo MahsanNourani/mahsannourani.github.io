@@ -1,0 +1,55 @@
+[
+    {
+        "endDate": "2022",
+        "award": "Doctoral Colloquium Fellowship",
+        "awardType": "Participant & Recipient",
+        "location": "IEEE Visualization & Visual Analytics Conference"
+    },
+    {
+        "endDate": "2021",
+        "award": "ACM IUI Best Paper Award",
+        "awardType": "Recipient",
+        "paper": "C.5",
+        "location": "Honorable Mention"
+    },
+    {
+        "endDate": "2021, 2022",
+        "award": "Gartner Group Graduate Fellowship",
+        "awardType": "Recipient",
+        "location": "Herbert Wertheim College of Engineering, University of Florida"
+    },
+    {
+        "startDate": "2021",
+        "endDate": "2023",
+        "award": "Special Recognition for Outstanding Review",
+        "awardType": "Recipient",
+        "location": "ACM CHI Conference on Human Factors in Computing Systems"
+    },
+    {
+        "endDate": "2020",
+        "award": "Outstanding Achievement Award",
+        "awardType": "Recipient",
+        "paper": "Top 9%",
+        "location": "Herbert Wertheim College of Engineering, University of Florida"
+    },
+    {
+        "endDate": "2016",
+        "award": "4th Iran Game Developers Cup (team participation)",
+        "awardType": "Winner",
+        "location": "Kashan, Iran"
+    },
+    {
+        "endDate": "2012",
+        "award": "Nationwide University Entrance Exam in Mathematics and Physics",
+        "awardType": "Ranked 542th",
+        "paper": "Top 0.1%",
+        "location": "Tehran, Iran"
+    },
+    {
+        "endDate": "2012",
+        "award": "Nationwide University Entrance Exam in English and Foreign Languages",
+        "awardType": "Ranked 242th",
+        "paper": "Top 0.4%",
+        "location": "Tehran, Iran"
+    }
+]

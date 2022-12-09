@@ -1,42 +1,121 @@
 .iconStyle {
-    font-size: 1.2rem!important;
+    font-size: 1.2rem !important;
     /* color: #2559a6; */
     color: var(--snow-background);
     background-color: var(--dark-lake);
     border: 1px solid var(--dark-lake);
-  
+
+}
+
+.paperAward {
+    color: var(--red-cabin);
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .items {
     color: var(--dark-lake);
-    font-size: 0.9rem!important;
+    font-size: 0.9rem !important;
     font-family: 'Overpass', sans-serif;
 }
-@media (min-width:576px) {
+
+.contact {
+    color: black;
+}
+
+.contactIcon {
+    color: var(--red-cabin);
+}
+
+.highlightedText {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--red-cabin);
+}
+
+.highlightedTextDark {
+    font-size: 16px;
+    font-weight: 500;
+    /* font-style: italic; */
+    color: black;
+}
+
+
+.subtitleText {
+    color: black;
+}
+
+.citaion {
+    color: black;
+    font-weight: 800;
+}
+
+.paperTitle {
+    color: black;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.underline {
+    border-bottom: 1px dotted #a9a7a8;
+    text-decoration: none;
+    color: #676262;
+}
+
+.underline:hover {
+    color: #8a140d;
+    text-decoration: none;
+}
+
+.lessHighlightedText {
+    font-size: 15px;
+    font-weight: 400;
+    color: #a9a6a6;
+    /* font-style: italic; */
+}
+
+.lessHighlightedTextDark {
+    font-size: 15px;
+    font-weight: 400;
+    color: #676262;
 
 }
+
+.dateRange {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.dateRangeRed {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--red-cabin);
+}
+
+@media (min-width:576px) {}
 
 @media (min-width:768px) {
     .iconStyle {
-        font-size: 1.3rem!important;
-      }
+        font-size: 1.3rem !important;
+    }
 }
+
 /* Because the app is weird! */
-@media (min-width:930px) {
-    
-}
+@media (min-width:930px) {}
 
 @media (min-width:992px) {
     .iconStyle {
         font-size: 1.5rem;
     }
+
     .items {
-        font-size: 1.1rem!important;
+        font-size: 1.1rem !important;
     }
 }
 
 @media (min-width:1200px) {
     .items {
-        font-size: 1rem!important;
+        font-size: 1rem !important;
     }
 }

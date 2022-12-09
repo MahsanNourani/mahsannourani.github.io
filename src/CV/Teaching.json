@@ -1,0 +1,46 @@
+[
+    {
+        "role": "Guest Lecturer",
+        "courses": [
+            {
+                "title": "Human-Computer Interactions (CEN 4721)",
+                "location": "University of Florida",
+                "misc": "Lecture on introduction to Human-Centered AI and Explainable AI",
+                "endDate": "Spring 2021, Spring 2022"
+            }
+        ]
+    },
+    {
+        "role": "Teaching Assistant",
+        "courses": [
+            {
+                "title": "Introduction to Computer Systems and Programming (C)",
+                "location": "University of Tehran",
+                "misc": "Project Chief TA and Lab Coordinator. Supervised 10 TAs and over 220 students.",
+                "endDate": "Fall 2015"
+            },
+            {
+                "title": "Advanced Programming (C++)",
+                "location": "University of Tehran",
+                "misc": "HW desiner and held extra-curricular lectures.",
+                "endDate": "Fall 2014, Spring 2015"
+            },
+            {
+                "title": "Data Structures and Algorithms (Java)",
+                "location": "University of Tehran",
+                "misc": "HW desiner and held extra-curricular lectures.",
+                "endDate": "Spring 2015, Fall 2015"
+            }
+        ]
+    },
+    {
+        "role": "Grader",
+        "courses": [
+            {
+                "title": "Probability and Statistics",
+                "location": "University of Tehran",
+                "endDate": "Fall 2015"
+            }
+        ]
+    }
+]

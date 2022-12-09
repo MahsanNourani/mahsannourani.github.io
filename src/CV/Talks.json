@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Shadows of the Past: The Effects of User's Past Experiences and Expectations on Human-AI Partnership",
+        "where": [
+            {
+                "location": "IEEE Visualization & Visual Analytics Conference, Doctoral Colloquium",
+                "year": 2022,
+                "invited": true
+            },
+            {
+                "location": "University of Florida Thesis Proposal",
+                "year": 2022,
+                "invit": true
+            }
+        ]
+    },
+    {
+        "title": "Beware of the Biases: ​The Role of User Biases in Explainable AI Systems​",
+        "where": [
+            {
+                "location": "Microsoft Research",
+                "year": 2021,
+                "invited": true
+            },
+            {
+                "location": "Visualization Summer Camp",
+                "year": 2021,
+                "invited": true
+            }
+        ]
+    },
+    {
+        "title": "The Effects of Predicting and Explaining People's Errors on Their Predictions​",
+        "where": [
+            {
+                "location": "Intern Tea Talk, Microsoft Research",
+                "year": 2021
+            }
+        ]
+    },
+    {
+        "title": "Anchoring Bias Affects Mental Model Formation and User Reliance in Explainable AI Systems​",
+        "where": [
+            {
+                "location": "ACM Conference on Intelligent User Interfaces (IUI)",
+                "year": 2021
+            },
+            {
+                "location": "DARPA eXplainable AI (XAI) Program Workshop",
+                "year": 2021
+            },
+            {
+                "location": "University of Florida affiliated Virtual CHI",
+                "year": 2020
+            }
+        ]
+    },
+    {
+        "title": "Splitstreams: A Visual Metaphor for Evolving Hierarchies",
+        "where": [
+            {
+                "location": "IEEE Visualization & Visual Analytics Conference, Co-presented",
+                "year": 2020
+            }
+        ]
+    },
+    {
+        "title": "The Role of Domain Expertise in User Trust and The Impact of First Impressions with Intelligent Systems",
+        "where": [
+            {
+                "location": "AAAI Conference on Human Computation and Crowdsourcing (HCOMP)",
+                "year": 2020
+            }
+        ]
+    },
+    {
+        "title": "The effects of Explanation Meaningfulness and Veracity on Intelligent System Usage",
+        "where": [
+            {
+                "location": "The UFII Student Data Analysis Seminar (SDAS)",
+                "year": 2019,
+                "invited": true
+            },
+            {
+                "location": "AAAI Conference on Human Computation and Crowdsourcing (HCOMP)",
+                "year": 2019
+            }
+        ]
+    }
+]

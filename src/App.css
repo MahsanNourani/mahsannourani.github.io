@@ -1,35 +1,66 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;800&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap'); */
 
-:root { 
---snow-background: #E0e8f0;
---blue-lake: #51a2d9;
---blue-sky: #53c0f0;
---ice: #b9e5f3;
---red-cabin: #8a140e;
---dark-lake: #1a57ba; 
+:root {
+  --snow-background: #E0e8f0;
+  --blue-lake: #51a2d9;
+  --blue-sky: #53c0f0;
+  --ice: #b9e5f3;
+  --red-cabin: #8a140e;
+  --dark-lake: #1a57ba;
 }
 
 body {
-  font-family: 'Overpass', sans-serif!important;
+  /* font-family: 'Overpass', sans-serif!important;
+   */
+  font-family: 'Roboto', sans-serif;
   /* background-color: var(--snow-background); */
 }
 
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+.link {
+  border-bottom: 1px dotted #a9a7a8;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted var(--red-cabin);
+  background-color: #8a140d;
+  color: white;
+  padding-top: 2px;
+  border-radius: 3px;
+  padding-bottom: 2px;
+}
+
+p,
+i {
+  font-family: 'Roboto', sans-serif;
+}
+
 h4 {
-  font-size: 1.1rem!important;
-  font-family: 'Overpass', sans-serif;
+  font-size: 1.1rem !important;
+  /* font-family: 'Overpass', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   /* font-weight: 900; */
 }
 
 h5 {
-  font-size: 1rem!important;
-  font-family: 'Overpass', sans-serif;
-  color:var(--dark-lake)
+  font-size: 1rem !important;
+  /* font-family: 'Overpass', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  color: var(--dark-lake)
+}
 
+h6 {
+  font-family: 'Roboto', sans-serif;
 }
 
 .card-columns {
-  padding: 0.75rem 0px!important;
+  padding: 0.75rem 0px !important;
 }
 
 .card {
@@ -42,7 +73,7 @@ h5 {
 }
 
 .project-info {
-  max-width: 100%!important;
+  max-width: 100% !important;
 }
 
 .img-info {
@@ -50,12 +81,13 @@ h5 {
 }
 
 .publication-type {
-  background-color: var(--dark-lake)!important;
-  color: white!important;
-  opacity: 1!important;
-  border-color: var(--dark-lake)!important;
-  cursor: default!important;
+  background-color: var(--dark-lake) !important;
+  color: white !important;
+  opacity: 1 !important;
+  border-color: var(--dark-lake) !important;
+  cursor: default !important;
 }
+
 .pub-type-title {
   text-align: center;
   padding: 8px 0px;
@@ -66,7 +98,7 @@ h5 {
 }
 
 #cv-btn {
-  font-size: 1rem!important;
+  font-size: 1rem !important;
   /* color: #2559a6; */
   color: white;
   background-color: var(--red-cabin);
@@ -75,20 +107,47 @@ h5 {
 }
 
 .sidebar-div {
-  margin-right: 0!important;
+  margin-right: 0 !important;
 }
+
+
+/* FOR PRINTING */
+
+@media print {
+  div {
+    break-inside: avoid;
+  }
+
+  @page {
+    size: letter portrait;
+    /* margin: 0; */
+    margin-top: 15mm;
+    margin-bottom: 15mm;
+  }
+}
+
+@media print {
+  .pagebreak {
+    clear: both;
+    page-break-after: always;
+  }
+}
+
+/* END OF PRINTING */
 
 @media (min-width:576px) {
   h4 {
-    font-size: 1rem!important;
+    font-size: 1rem !important;
   }
 
   h5 {
-    font-size: 0.8rem!important;
+    font-size: 0.8rem !important;
   }
+
   .card-columns {
-    column-count: 2!important;
+    column-count: 2 !important;
   }
+
   #image-div {
     border-top: 1px solid var(--red-cabin);
     border-right: 1px solid var(--red-cabin);
@@ -98,60 +157,68 @@ h5 {
 
 @media (min-width:768px) {
   h4 {
-    font-size: 1rem!important;
+    font-size: 1rem !important;
   }
 
   h5 {
-    font-size: 0.8rem!important;
+    font-size: 0.8rem !important;
   }
 
   .sticky {
-    position: sticky!important;
+    position: sticky !important;
     top: 0;
     z-index: 40;
     bottom: 10px;
   }
+
   .project-info {
-    max-width: 80%!important;
+    max-width: 80% !important;
   }
 
   .img-info {
     width: 70%;
   }
+
   .navbar-brand {
-    display: none!important;
+    display: none !important;
   }
 }
+
 /* Because the app is weird! */
 @media (min-width:930px) {
   h4 {
-    font-size: 1.1rem!important;
+    font-size: 1.1rem !important;
   }
 
   h5 {
-    font-size: 0.9rem!important;
+    font-size: 0.9rem !important;
   }
 }
 
 @media (min-width:992px) {
   h4 {
-    font-size: 1.3rem!important;
+    font-size: 1.3rem !important;
   }
 
   h5 {
-    font-size: 1.1rem!important;
+    font-size: 1.1rem !important;
   }
+
   .sidebar-div {
-    margin-right: -15px!important;
+    margin-right: -15px !important;
   }
 }
 
 @media (min-width:1200px) {
   h4 {
-    font-size: 1.5rem!important;
+    font-size: 1.5rem !important;
   }
 
   h5 {
-    font-size: 1rem!important;
+    font-size: 1rem !important;
   }
+}
+
+.logo {
+  color: var(--red-cabin)
 }

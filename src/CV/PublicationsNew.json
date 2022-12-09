@@ -1,0 +1,177 @@
+[
+    {
+        "title": "Refereed Journal Papers",
+        "ID": "J.",
+        "list": [
+            {
+                "title": "DETOXER: A Visual Debugging Tool with Multi-Scope Explanations for Temporal Multi-Label Classification",
+                "authors": "<b class='highlighted-name'> Mahsan Nourani</b>, Chiradeep Roy, Donald Honeycutt, Eric Ragan, Vibhav Gogate",
+                "journal": "IEEE Computer Graphics and Applications (CG&A). (To appear)",
+                "year": "2022",
+                "id": "J.4",
+                "link": "https://ieeexplore.ieee.org/abstract/document/9866547",
+                "nickname": "DETOXER2022",
+                "type": "Journal Paper"
+            },
+            {
+                "title": "On the Importance of User Backgrounds and Impressions: Lessons Learned from Interactive AI Applications",
+                "authors": "<b class='highlighted-name'> Mahsan Nourani</b>, Chiradeep Roy, Jeremy Block, Donald Honeycutt, Tahrima Rahman, Eric Ragan, Vibhav Gogate",
+                "journal": "ACM Transactions on Interactive Intelligent Systems (TiiS).",
+                "year": "2022",
+                "id": "J.3",
+                "link": "https://dl.acm.org/doi/abs/10.1145/3531066",
+                "nickname": "Nourani2022TiiS",
+                "type": "Journal Paper"
+            },
+            {
+                "title": "Explainable Activity Recognition in Videos: Lessons Learned",
+                "authors": "Chiradeep Roy, <b class='highlighted-name'> Mahsan Nourani</b>, Jeremy Block, Donald Honeycutt, Tahrima Rahman, Eric Ragan, Nicholas Ruozzi, Vibhav Gogate",
+                "journal": "Applied AI Letters.",
+                "year": "2021",
+                "id": "J.2",
+                "link": "https://doi.org/10.1002/ail2.59",
+                "nickname": "Roy2021Applied",
+                "type": "Journal Paper"
+            },
+            {
+                "title": "SplitStreams: A Visual Metaphor for Evolving Hierarchies",
+                "authors": "Fabian Bolte, <b class='highlighted-name'> Mahsan Nourani</b>, Eric Ragan, Stefen Bruckner",
+                "journal": "IEEE Transactions on Visualization and Computer Graphics (TVCG).",
+                "year": "2020",
+                "id": "J.1",
+                "link": "https://ieeexplore.ieee.org/document/8998355",
+                "nickname": "BolteSplits2020",
+                "video": "https://www.youtube.com/watch?v=mIadBtuBq1w&feature=youtu.be&t=5369",
+                "type": "Journal Paper"
+            }
+        ]
+    },
+    {
+        "title": "Refereed Conference Papers",
+        "ID": "C.",
+        "list": [
+            {
+                "title": "Anchoring Bias Affects Mental Model Formation and User Reliance in Explainable AI Systems",
+                "authors": "<b class='highlighted-name'> Mahsan Nourani</b>, Chiradeep Roy, Jeremy Block, Donald Honeycutt, Tahrima Rahman, Eric Ragan, Vibhav Gogate",
+                "journal": "26th International Conference on Intelligent User Interfaces (IUI).",
+                "year": "2021",
+                "awardType": 1,
+                "award": "Best paper, Honorable Mention Award",
+                "id": "C.5",
+                "link": "https://dl.acm.org/doi/10.1145/3397481.3450639",
+                "nickname": "NouraniPineapple2021",
+                "video": "https://youtu.be/lHrLGD0560A",
+                "type": "Conference Paper"
+            },
+            {
+                "title": "Understanding the Effects of Explanation Types and User Motivations on Recommender System Use",
+                "authors": "Qing Li, Sharon Chu, Nanjie Rao, <b class='highlighted-name'> Mahsan Nourani</b>",
+                "journal": "Proceedings of the AAAI Conference on Human Computation and Crowdsourcing (HCOMP).",
+                "year": "2021",
+                "id": "C.4",
+                "link": "https://www.aaai.org/ojs/index.php/HCOMP/article/view/7466",
+                "nickname": "QingMovie2020",
+                "type": "Conference Paper"
+            },
+            {
+                "title": "Soliciting Human-in-the-Loop User Feedback for Interactive Machine Learning Reduces User Trust and Impressions of Model Accuracy",
+                "authors": "Donald Honeycutt, <b class='highlighted-name'> Mahsan Nourani</b>, Eric Ragan",
+                "journal": "Proceedings of the AAAI Conference on Human Computation and Crowdsourcing (HCOMP).",
+                "year": "2021",
+                "id": "C.3",
+                "link": "https://www.aaai.org/ojs/index.php/HCOMP/article/view/7464",
+                "nickname": "HoneycuttLoop2020",
+                "video": "https://screencast-o-matic.com/watch/cY6QrgKMb7",
+                "type": "Conference Paper"
+            },
+            {
+                "title": "The Role of Domain Expertise in User Trust and The Impact of First Impressions with Intelligent Systems",
+                "authors": "<b class='highlighted-name'> Mahsan Nourani</b>, Joanie King, Eric Ragan",
+                "journal": "Proceedings of the AAAI Conference on Human Computation and Crowdsourcing (HCOMP).",
+                "year": "2020",
+                "id": "C.2",
+                "link": "https://www.aaai.org/ojs/index.php/HCOMP/article/view/7469",
+                "nickname": "NouraniBugs2020",
+                "video": "https://screencast-o-matic.com/watch/cY6jerKCYZ",
+                "type": "Conference Paper"
+            },
+            {
+                "title": "The Effects of Meaningful and Meaningless Explanations on Trust and Perceived System Accuracy in Intelligent Systems",
+                "authors": "<b class='highlighted-name'> Mahsan Nourani</b>, Samia Kabir, Sina Mohseni, Eric Ragan",
+                "journal": "Proceedings of the AAAI Conference on Human Computation and Crowdsourcing (HCOMP).",
+                "year": "2019",
+                "id": "C.1",
+                "link": "https://wvvw.aaai.org/ojs/index.php/HCOMP/article/view/5284",
+                "nickname": "NouraniCats2019",
+                "type": "Conference Paper"
+            }
+        ]
+    },
+    {
+        "title": "Conference Workshop Papers, Posters, and Presentations",
+        "ID": "P.",
+        "list": [
+            {
+                "title": "Shadows of the Past: The Effects of User's Past Experiences and Expectations on Human-AI Partnership",
+                "authors": "<b class='highlighted-name'> Mahsan Nourani</b>",
+                "journal": "IEEE Visualization and Visual Analytics Conference, Doctoral Colloquium (DC).",
+                "year": "2022",
+                "type": "Extended Abstract",
+                "id": "P.5",
+                "nickname": "DC2022"
+            },
+            {
+                "title": "Romadoro: Leveraging Nudge Techniques to Encourage Break-Taking",
+                "authors": "Katarina Jurczyk, Christopher You, <b class='highlighted-name'> Mahsan Nourani</b>, Manas Gupta, Lisa Anthony, Benjamin Lok",
+                "journal": "The ACM Symposium on User Interface Software and Technology (UIST).",
+                "year": "2021",
+                "id": "P.4",
+                "type": "Extended Abstract",
+                "link": "https://dl.acm.org/doi/abs/10.1145/3474349.3480231",
+                "nickname": "Romadoro2021"
+            },
+            {
+                "title": "Investigating the Importance of First Impressions and Explainable AI with Interactive Video Analysis",
+                "authors": "<b class='highlighted-name'> Mahsan Nourani</b>, Chiradeep Roy, Donald Honeycutt, Jeremy Block, Tahrima Rahman, Eric Ragan, Vibhav Gogate",
+                "journal": "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI LBW). ",
+                "year": "2020",
+                "id": "P.3",
+                "nickname": "LBWPineapple2020",
+                "type": "Extended Abstract",
+                "video": "https://youtu.be/7WYZRzJ_kwA"
+            },
+            {
+                "title": "Explainable Activity Recognition in Videos",
+                "authors": "Chiradeep Roy, Mahesh Shanbhag, <b class='highlighted-name'> Mahsan Nourani</b>, Tahrima Rahman, Samia Kabir, Vibhav Gogate, Nicholas Ruozzi, Eric Ragan",
+                "journal": "IUI 2nd workshop on Explainable Smart Systems (ExSS, now TExSS). ",
+                "year": "2019",
+                "id": "P.2",
+                "link": "https://explainablesystems.comp.nus.edu.sg/2019/wp-content/uploads/2019/02/IUI19WS-ExSS2019-8.pdf",
+                "nickname": "RoyExSS2019",
+                "type": "Workshop paper"
+            },
+            {
+                "title": "Explainable Activity Recognition in Videos using Dynamic Cutset Networks",
+                "authors": "Chiradeep Roy, <b class='highlighted-name'> Mahsan Nourani</b>, Mahesh Shanbhag, Samia Kabir, Tahrima Rahman, Eric Ragan, Nicholas Ruozzi, Vibhav Gogate",
+                "journal": "3rd Workshop of Tractable Probabilistic Modeling (TPM 2019).",
+                "year": "2019",
+                "id": "P.1",
+                "type": "Presentation"
+            }
+        ]
+    },
+    {
+        "title": "Pre-prints",
+        "ID": "A.",
+        "list": [
+            {
+                "title": "Don't Explain without Verifying Veracity: An Evaluation of Explainable AI with Video Activity Recognition",
+                "authors": "<b class='highlighted-name'> Mahsan Nourani</b>, Chiradeep Roy, Tahrima Rahman, Eric Ragan, Nicholas Ruozzi, Vibhav Gogate",
+                "journal": "arXiv:2005.02335",
+                "year": "2020",
+                "id": "A.1",
+                "type": "Pre-print"
+            }
+        ]
+    }
+]

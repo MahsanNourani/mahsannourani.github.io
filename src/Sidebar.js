@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import { ResearchInterests, LinkIcon } from "./Utilities.js";
 import Image from "react-bootstrap/Image";
+// import CV from './CV';
 
 export default class Sidebar extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      imageSource: "/me_new.jpg",
+      imageSource: "/me.JPG",
       name: "Mahsan Nourani",
       position: "Graduate Research Assistant",
-      education: "Ph.D. Student in Computer Science",
+      education: "Ph.D. Candidate in Computer Science",
       location: (
         <span>
           <span className="fa fa-university"></span> University of Florida
@@ -18,9 +19,10 @@ export default class Sidebar extends Component {
       ),
       researchInterests: [
         "Human-Computer Interaction",
-        "Explainable AI",
+        "Human-Centered AI/Explainable AI",
         "Visual Analytics",
-        "Human-Centered AI",
+        "Human-AI Interaction",
+        "Resposible AI"
       ],
       linkIcons: [
         {
@@ -92,8 +94,9 @@ export default class Sidebar extends Component {
                 className="btn btn-block btn-primary"
                 target="_blank"
                 href={require(`../public/pdfs/${cv}.pdf`)}
+              // href={`?resumeonly=true`}
               >
-                <i className="fas fa-address-card"></i> My Curriculum Vitae
+                <i className="fas fa-address-card"></i> Download My Curriculum Vitae
               </a>
             </div>
           </div>

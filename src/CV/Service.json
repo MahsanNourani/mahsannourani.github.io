@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Organizer",
+        "where": [
+            {
+                "location": "IEEE VIS Workshop on TRust and EXpertise in Visualization (<b>TREX</b>)",
+                "year": "2022, 2021, 2020",
+                "link": "https://trexvis.github.io/Workshop2022/",
+                "otherRole": "Session Chair"
+            },
+            {
+                "location": "University of Florida Affiliated Virtual CHI (conference cancelled due to COVID)",
+                "year": "2020",
+                "otherRole": "Session Chair"
+            }
+        ]
+    },
+    {
+        "title": "Program Committee",
+        "where": [
+            {
+                "location": "IEEE VIS Workshop on TRust and EXpertise in Visualization (<b>TREX</b>)",
+                "link": "https://trexvis.github.io/Workshop2022/",
+                "year": "2022, 2021, 2020"
+            },
+            {
+                "location": "ACM CHI workshop on Human-Centered Explainable AI (<b>HCXAI</b>)",
+                "link": "https://hcxai.jimdosite.com/",
+                "year": "2022"
+            },
+            {
+                "location": "NeurIPS workshop on Human-Centered AI (<b>HCAI</b>)",
+                "link": "https://hcai-at-neurips.github.io/site/organizers.html",
+                "year": "2022"
+            }
+        ]
+    },
+    {
+        "title": "Reviewer",
+        "misc": "I am actively reviewing for HCI, Visualization, and Human-centered AI/XAI conferences and journals.",
+        "where": [
+            {
+                "location": "IEEE Transactions on Visualization and Computer Graphics (<b>TVCG)</b>",
+                "link": "https://www.computer.org/csdl/journal/tg",
+                "year": "2022, 2021",
+                "venue": "Journal"
+            },
+            {
+                "location": "ACM Conference on Computer-Supported Cooperative Work And Social Computing (<b>CSCW</b>)",
+                "link": "https://cscw.acm.org/",
+                "year": "2023",
+                "venue": "Journal"
+            },
+            {
+                "location": "IEEE Visualization and Visual Analytics Conference (<b>VIS</b>)",
+                "link": "https://www.ieeevis.org/",
+                "year": "2022, 2021",
+                "venue": "Conference"
+            },
+            {
+                "location": "ACM Conference on Human Factors in Computing Systems (<b>CHI</b>)",
+                "link": "https://dl.acm.org/conference/chi",
+                "year": "2023, 2022, 2021",
+                "venue": "Conference"
+            },
+            {
+                "location": "Workshop on Visualization for AI Explainability (<b>VISxAI</b>)",
+                "link": "https://visxai.io/",
+                "year": "2021",
+                "venue": "Workshop"
+            }
+        ]
+    }
+]
