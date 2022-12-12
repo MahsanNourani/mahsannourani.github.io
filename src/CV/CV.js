@@ -73,7 +73,7 @@ class CV extends Component {
 
         let education = [
             {
-                startDate: "Aug 2017", endDate: "May 2023", institue: "University of Florida (Transferred: Texas A&M University in 2018)", location: "Gainesville, Florida", degree: "Ph.D., Computer Science", thesis: "Shadows of the Past: The Effects of User\'s Past Experiences and Expectations on Human-AI Partnership",
+                startDate: "Aug 2017", endDate: "Present", institue: "University of Florida (Transferred: Texas A&M University in 2018)", location: "Gainesville, Florida", degree: "Ph.D., Computer Science (Expected: June 2023)", thesis: "Shadows of the Past: The Effects of User\'s Past Experiences and Expectations on Human-AI Partnership",
                 advisor: { name: "Eric D. Ragan", link: "https://www.cise.ufl.edu/~eragan/" },
                 committee: [
                     { name: "Juan Gilbert", link: "https://www.cise.ufl.edu/gilbert-juan/" },
@@ -155,11 +155,24 @@ class CV extends Component {
                 <CVMentoring key={uuidv4()} {...item} />
             )
         })
+        const cv = "Mahsan_CV";
+
+        const url = new URL(window.location.href);
+        const params = new URLSearchParams(url.search);
+        const resumeOnlyMode = params.get('resumeonly');
 
         return (
             <div id="cvMain">
                 {/* Remove subtitle if you want. In such case, set #name 's mb-0 to mb-2. */}
-                <h2 id="name" className='mb-0 mt-4'>{cvName}</h2>
+                <div className='row mb-0 mt-4'>
+                    <div className='col-md-9'>
+                        <h2 id="name">{cvName}</h2>
+                    </div>
+                    {!resumeOnlyMode &&
+                        <div className='col-md-3'>
+                            <a class="btn btn-primary float-right cv-btn" target="_blank" href={require(`../../public/pdfs/${cv}.pdf`)} role="button"><i className="fas fa-download"></i> Download CV</a>
+                        </div>}
+                </div>
                 <p id="subtitle">
                     {researchInterests}
                 </p>
@@ -172,16 +185,17 @@ class CV extends Component {
 
                 {/* horizontal line after the contact */}
                 <hr className="mt-3 mb-2" />
-                <h3 className='mb-2 mt-2 sectionTitle eight'>Research Experience
-                    {/* <span className='line'></span> */}
-                </h3>
-                {researchExpList}
 
                 {/* <hr className="mt-3 mb-2" /> */}
                 <h3 className='mb-2 mt-2 sectionTitle eight'>Education
                     {/* <span className='line'></span> */}
                 </h3>
                 {educationList}
+
+                <h3 className='mb-2 mt-2 sectionTitle eight'>Research Experience
+                    {/* <span className='line'></span> */}
+                </h3>
+                {researchExpList}
 
 
                 <h3 className='mb-2 mt-2 sectionTitle eight'>Honors and Awards

@@ -90,8 +90,7 @@ export default class Sidebar extends Component {
             <hr />
             <div>
               <a
-                id="cv-btn"
-                className="btn btn-block btn-primary"
+                className="btn btn-block btn-primary cv-btn"
                 target="_blank"
                 href={require(`../public/pdfs/${cv}.pdf`)}
               // href={`?resumeonly=true`}

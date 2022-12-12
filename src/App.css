@@ -97,12 +97,12 @@ h6 {
   padding: .8rem .75rem;
 }
 
-#cv-btn {
+.cv-btn {
   font-size: 1rem !important;
   /* color: #2559a6; */
-  color: white;
-  background-color: var(--red-cabin);
-  border: 1px solid var(--red-cabin);
+  color: white !important;
+  background-color: var(--red-cabin) !important;
+  border: 1px solid var(--red-cabin) !important;
 
 }
 
