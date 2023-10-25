@@ -1,9 +1,9 @@
 .iconStyle {
     font-size: 1.2rem !important;
     /* color: #2559a6; */
-    color: var(--snow-background);
-    background-color: var(--dark-lake);
-    border: 1px solid var(--dark-lake);
+    color: var(--red-cabin);
+    /* background-color: var(--red-cabin); */
+    /* border: 1px solid var(--red-cabin); */
 
 }
 
@@ -14,9 +14,11 @@
 }
 
 .items {
-    color: var(--dark-lake);
+    color: var(--red-cabin);
     font-size: 0.9rem !important;
-    font-family: 'Overpass', sans-serif;
+    /* font-family: 'Overpass', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .contact {

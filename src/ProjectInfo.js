@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {Modal} from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 
-export default class ProjectInfo extends Component{
+export default class ProjectInfo extends Component {
 
     constructor(props) {
         super(props);
@@ -15,21 +15,21 @@ export default class ProjectInfo extends Component{
         console.log(this.state)
         this.setState({ show: true })
     }
-    handleClose(){
+    handleClose() {
         this.setState({ show: false })
     }
 
-    render () {
+    render() {
         const project = this.props.project;
         return (
             <Modal show={this.state.show} onHide={this.handleClose} centered dialogClassName="project-info">
                 <Modal.Header closeButton>
-                    <Modal.Title style={{color: "var(--dark-lake)"}}>{project.title}</Modal.Title>
+                    <Modal.Title style={{ color: "var(--red-cabin)" }}>{project.title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <div className="row mb-3">
                         <div className="col-md-8 col-12 mx-auto">
-                            <img className="img-fluid" src={require(`../public/images/${project.image}`)}/>
+                            <img className="img-fluid" src={require(`../public/images/${project.image}`)} />
                         </div>
                     </div>
                     <div className="row mb-3">
@@ -42,7 +42,7 @@ export default class ProjectInfo extends Component{
                             <p className="text-justify">{project.abstract}</p>
                         </div>
                     </div>
-                    
+
                 </Modal.Body>
                 {/* <Modal.Footer>
                     <button className="btn btn-secondary" onClick={this.handleClose}>

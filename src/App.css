@@ -8,12 +8,13 @@
   --ice: #b9e5f3;
   --red-cabin: #8a140e;
   --dark-lake: #1a57ba;
+  --dark-grey: #6b5f5f;
 }
 
 body {
   /* font-family: 'Overpass', sans-serif!important;
    */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   /* background-color: var(--snow-background); */
 }
 
@@ -24,6 +25,11 @@ a {
 .link {
   border-bottom: 1px dotted #a9a7a8;
   text-decoration: none;
+  color: var(--red-cabin);
+}
+
+.pub {
+  font-size: 15px;
 }
 
 .link:hover {
@@ -34,6 +40,17 @@ a {
   padding-top: 2px;
   border-radius: 3px;
   padding-bottom: 2px;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #8a140d !important;
+  border-color: #8a140d !important;
+}
+
+.btn-outline-primary {
+  color: #8a140d !important;
+  border-color: #8a140d !important;
 }
 
 p,
@@ -52,7 +69,7 @@ h5 {
   font-size: 1rem !important;
   /* font-family: 'Overpass', sans-serif; */
   font-family: 'Roboto', sans-serif;
-  color: var(--dark-lake)
+  color: var(--dark-grey)
 }
 
 h6 {

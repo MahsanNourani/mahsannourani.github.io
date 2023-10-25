@@ -99,6 +99,7 @@ export const ResearchExperience = (props) => {
                                 {/* <span className={styles.lessHighlightedTextDark}>{props.mentor}</span> */}
                             </p>
                         </div> : undefined}
+                    {!props.advisor && !props.mentor ? <div className={`col-md-12 mb-4`}></div> : undefined}
                 </div>
             </div>
         </div>
@@ -220,6 +221,7 @@ export const CVPublication = (props) => {
                     {props.award && <i className={`fas fa-award ${styles.paperAward}`}></i>}
                     {' '}
                     {props.id}
+                    {props.dissertation && <i class="fas fa-scroll"></i>}
                 </p>
             </div>
             <div className='col-md-11 mb-2 pl-0 pr-0'>
@@ -231,13 +233,30 @@ export const CVPublication = (props) => {
                         {ReactHtmlParser(props.authors)}
                     </div>
                     <div className={`col-md-12 ${styles.lessHighlightedTextDark}`}>
-                        {props.journal} <span className={`${styles.dateRangeRed}`}>({props.year})</span>
+                        {props.journal} <span className={`${styles.dateRangeRed}`}>({props.year}) </span>
+                        {props.notCV &&
+                            // <div className='col-md-12'>
+                            <React.Fragment>
+                                {(props.nickname || props.link || props.video) && <span> -- </span>}
+                                {props.nickname && <a className="link pub mt-2 p-1" target="_blank" href={require(`../../public/pdfs/${props.nickname}.pdf`)}><i className="fas fa-file-pdf"></i> PDF</a>} &nbsp;
+                                {props.link && <a className="link pub mt-2 p-1" target="_blank" href={props.link}><i className="fas fa-link"></i> Link</a>} &nbsp;
+                                {props.video && <a className="link pub mt-2 p-1" target="_blank" href={props.video}><i className="fab fa-youtube"></i> Video</a>} &nbsp;
+                            </React.Fragment>
+                            // </div>
+                        }
                     </div>
                     {props.award &&
                         <div className={`col-md-12 ${styles.lessHighlightedTextDark}`}>
                             <i className="fas fa-trophy"></i> {props.award}
                         </div>
                     }
+                    {/* {props.notCV &&
+                        <div className='col-md-12'>
+                            {props.nickname && <a className="link pub mr-2 mt-2 p-1" target="_blank" href={require(`../../public/pdfs/${props.nickname}.pdf`)}><i className="fas fa-file-pdf"></i> PDF</a>}
+                            {props.link && <a className="link pub mr-2 mt-2 p-1" target="_blank" href={props.link}><i className="fas fa-link"></i> Link</a>}
+                            {props.video && <a className="link pub mr-2 mt-2 p-1" target="_blank" href={props.video}><i className="fab fa-youtube"></i> Video</a>}
+                        </div>
+                    } */}
                 </div>
             </div>
         </div>

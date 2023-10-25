@@ -10,11 +10,11 @@ export default class Sidebar extends Component {
     this.state = {
       imageSource: "/me.JPG",
       name: "Mahsan Nourani",
-      position: "Graduate Research Assistant",
-      education: "Ph.D. Candidate in Computer Science",
+      position: "Research Assistant Professor",
+      education: "Ph.D., Computer Science",
       location: (
         <span>
-          <span className="fa fa-university"></span> University of Florida
+          <span className="fas fa-map-pin"></span> Northeastern University
         </span>
       ),
       researchInterests: [
@@ -28,7 +28,7 @@ export default class Sidebar extends Component {
         {
           title: "E-mail",
           icon: "fa fa-envelope",
-          href: "mailto:mahsannourani@ufl.edu",
+          href: "mailto:m.nourani@northeastern.edu",
         },
         {
           title: "Linkedin",
@@ -74,20 +74,22 @@ export default class Sidebar extends Component {
           <Image className="w-100" src={this.state.imageSource} rounded fluid />
         </div>
         <div className="col-lg-12 py-lg-1 col-md-12 py-md-1 col-sm-12 py-sm-1 col-12 py-4 pl-sm-0 pr-sm-0">
-          <div className="container-fluid">
+          <div className="container-fluid" style={{ textAlign: "center" }}>
+            {/* <div style={{ textAlign: "center" }}> */}
             <h4>
               {this.state.name}{" "}
-              <span style={{ fontSize: "16px" }}>(She/Her)</span>
+              <span style={{ fontSize: "0.75em" }}>(She/Her)</span>
             </h4>
-            <h5>{this.state.position}</h5>
             <h5>{this.state.education}</h5>
+            <h5>{this.state.position}</h5>
             <h5 className="mb-3">{this.state.location}</h5>
+            {/* </div> */}
+            <div className="row m-0 mb-3 justify-content-center">{icons}</div>
             <h5 className="text-body">Research Interests:</h5>
             <ul className="list-group list-group-flush mb-3">
               {researchInterestsList}
             </ul>
-            <div className="row m-0 justify-content-center">{icons}</div>
-            <hr />
+
             <div>
               <a
                 className="btn btn-block btn-primary cv-btn"

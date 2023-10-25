@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import projects from './projects.json';
 import ProjectInfo from './ProjectInfo';
 
-export default class Projects extends Component{
+export default class Projects extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -15,14 +15,14 @@ export default class Projects extends Component{
 
     loginModalRef = (obj) => {
         this.showModal = obj && obj.handleShow;
-     }
-     
+    }
+
     // onLoginClick = () => {
     //    this.showModal();
     //  }
 
     clickProjectInfo = (index) => {
-        this.setState({modalShow:true, selectedProject:index});
+        this.setState({ modalShow: true, selectedProject: index });
         // setSelectedProject(index);
         this.showModal();
     }
@@ -30,21 +30,21 @@ export default class Projects extends Component{
     createButtons = (links) => {
         return (
             links.map((link, index) => {
-                const iconType = 
-                        (link.type == "Demo") ? <i className="fas fa-laptop"></i> :
+                const iconType =
+                    (link.type == "Demo") ? <i className="fas fa-laptop"></i> :
                         (link.type == "Video") ? <i className="fab fa-youtube"></i> :
-                        (link.type == "Code") ? <i className="fab fa-github"></i> :
-                        (link.type == "PDF") ? <i className="fas fa-file-pdf"></i> :
-                        (link.type == "Presentation") ? <i className="fas fa-film"></i> :
-                        <i className="fas fa-users"></i>
+                            (link.type == "Code") ? <i className="fab fa-github"></i> :
+                                (link.type == "PDF") ? <i className="fas fa-file-pdf"></i> :
+                                    (link.type == "Presentation") ? <i className="fas fa-film"></i> :
+                                        <i className="fas fa-users"></i>
                 const linkHref = link.source.includes(".pdf") ? require(`../public/pdfs/${link.source}`) : link.source;
                 return (
                     link.source != "" &&
-                    <a className={`btn btn-sm btn-outline-${link.color} mr-2 mb-2`} target="_blank" href={linkHref} key={index}> {iconType} {link.type} </a>
+                    <a className={`link mr-1 mb-1 p-1`} target="_blank" href={linkHref} key={index}> {iconType} {link.type} </a>
                 )
             })
         )
-        
+
 
     }
 
@@ -54,12 +54,12 @@ export default class Projects extends Component{
 
             return (
                 <div className="card" key={index}>
-                    <img className="card-img-top" src={require(`../public/images/${project.image}`)}/>
+                    <img className="card-img-top" src={require(`../public/images/${project.image}`)} />
                     <div className="card-bofy">
                         <h5 className="card-title mt-2">{project.title}</h5>
                         <p className="card-text">{project.about}</p>
                         {buttons}
-                        <button className="btn btn-sm btn-outline-dark mr-2 mb-2" onClick={() => this.clickProjectInfo(index)}><i className="fas fa-info-circle"></i> info</button>
+                        <a className="link mr-1 mb-1 p-1" onClick={() => this.clickProjectInfo(index)}><i className="fas fa-info-circle"></i> info</a>
 
                     </div>
                 </div>
@@ -71,8 +71,8 @@ export default class Projects extends Component{
                 <div className="card-columns">
                     {projectDeck}
                 </div>
-                <ProjectInfo ref={this.loginModalRef} project={projects[this.state.selectedProject]} 
-                    links={this.createButtons} show={this.state.modalShow}/>
+                <ProjectInfo ref={this.loginModalRef} project={projects[this.state.selectedProject]}
+                    links={this.createButtons} show={this.state.modalShow} />
             </React.Fragment>
         )
     }

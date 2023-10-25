@@ -60,7 +60,13 @@
             {
                 "location": "ACM Conference on Human Factors in Computing Systems (<b>CHI</b>)",
                 "link": "https://dl.acm.org/conference/chi",
-                "year": "2023, 2022, 2021",
+                "year": "2024, 2023, 2022, 2021",
+                "venue": "Conference"
+            },
+            {
+                "location": "ACM Interaction Design and Children Conference  (<b>IDC</b>)",
+                "link": "https://dl.acm.org/conference/chi",
+                "year": "2023",
                 "venue": "Conference"
             },
             {

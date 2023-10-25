@@ -1,13 +1,18 @@
 [
     {
+        "date": "October 2023",
+        "text": "<b>Interested in my research?</b> Come work with me and my collegues at the <a target = '_blank' href='https://www.microsoft.com/en-us/research/theme/fate/' className='link'>Roux Institute</a>. I'm actively looking for Summer Interns and Postdoctoral Researchers. ",
+        "show": false
+    },
+    {
         "date": "October 2022",
         "text": "I'm on the job market this year, seeking <b>research scientist</b> and <b>TT faculty positions</b>. Please feel free to reach out to me with opportunities.",
-        "show": true
+        "show": false
     },
     {
         "date": "May 2022",
         "text": "I successfully defended my thesis proposal and advanced to degree candidacy (ABD).",
-        "show": true
+        "show": false
     },
     {
         "date": "May 2021",

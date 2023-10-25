@@ -14,7 +14,7 @@ class CV extends Component {
     state = {}
     render() {
 
-        let cvName = "Mahsan Nourani"
+        let cvName = "Mahsan Nourani, Ph.D."
         let researchInterests = "Human-centered AI/XAI . Responsible AI . Decision-making . Visual Analytics"
 
         let shortBio =
@@ -39,7 +39,10 @@ class CV extends Component {
 
         let researchExperience = [
             {
-                startDate: "Aug 2018", endDate: "Present", role: "Research Assistant", institue: "University of Florida", location: "Gainesville, Florida",
+                startDate: "Oct 2023", endDate: "Present", role: "Research Assistant Professor and Roux Institute Member", institue: "Northeastern University", location: "Khoury College of Computer Science"
+            },
+            {
+                startDate: "Aug 2018", endDate: "Aug 2023", role: "Research Assistant", institue: "University of Florida", location: "Gainesville, Florida",
                 advisor: [{ name: "Eric D. Ragan", link: "https://www.cise.ufl.edu/~eragan/" }]
             },
             {
@@ -73,7 +76,7 @@ class CV extends Component {
 
         let education = [
             {
-                startDate: "Aug 2017", endDate: "Present", institue: "University of Florida (Transferred: Texas A&M University in 2018)", location: "Gainesville, Florida", degree: "Ph.D., Computer Science (Expected: June 2023)", thesis: "Shadows of the Past: The Effects of User\'s Past Experiences and Expectations on Human-AI Partnership",
+                startDate: "Aug 2017", endDate: "Aug 2023", institue: "University of Florida (Transferred: Texas A&M University in 2018)", location: "Gainesville, Florida", degree: "Ph.D., Computer Science", thesis: "Shadows of the Past: The Effects of User\'s Differences and Past Experiences on Human-AI Partnership",
                 advisor: { name: "Eric D. Ragan", link: "https://www.cise.ufl.edu/~eragan/" },
                 committee: [
                     { name: "Juan Gilbert", link: "https://www.cise.ufl.edu/gilbert-juan/" },
