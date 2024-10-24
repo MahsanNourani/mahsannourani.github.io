@@ -1,22 +1,51 @@
 [
     {
+        "title": "User Profiling in Human-AI Design: An Empirical Case Study of Anchoring Bias, Individual Differences, and AI Attitudes",
+        "where": [
+            {
+                "location": "AAAI Conference on Human Computation and Crowdsourcing (HCOMP)",
+                "year": 2024,
+                "paper": "C.6"
+            }
+        ]
+    },
+    {
+        "title": "DETOXER: A Visual Debugging Tool with Multi-Scope Explanations for Temporal Multi-Label Classification",
+        "where": [
+            {
+                "location": "IEEE Visualization & Visual Analytics Conference (VIS)",
+                "year": 2024,
+                "invited": true,
+                "paper": "J.4"
+            }
+        ]
+    },
+    {
         "title": "Shadows of the Past: The Effects of User's Past Experiences and Expectations on Human-AI Partnership",
         "where": [
             {
-                "location": "IEEE Visualization & Visual Analytics Conference, Doctoral Colloquium",
+                "location": "University of Florida Ph.D. Dissertation Defense",
+                "year": 2023
+            },
+            {
+                "location": "IEEE Visualization & Visual Analytics Conference (VIS), Doctoral Colloquium",
                 "year": 2022,
                 "invited": true
             },
             {
-                "location": "University of Florida Thesis Proposal",
-                "year": 2022,
-                "invit": true
+                "location": "University of Florida Dissertation Proposal",
+                "year": 2022
             }
         ]
     },
     {
         "title": "Beware of the Biases: ​The Role of User Biases in Explainable AI Systems​",
         "where": [
+            {
+                "location": "The Roux Institute at Northeastern University",
+                "year": 2024,
+                "invited": true
+            },
             {
                 "location": "Microsoft Research",
                 "year": 2021,
@@ -59,7 +88,7 @@
         "title": "Splitstreams: A Visual Metaphor for Evolving Hierarchies",
         "where": [
             {
-                "location": "IEEE Visualization & Visual Analytics Conference, Co-presented",
+                "location": "IEEE Visualization & Visual Analytics Conference (VIS), Co-presented",
                 "year": 2020
             }
         ]

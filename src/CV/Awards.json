@@ -1,8 +1,15 @@
 [
     {
+        "endDate": "2024",
+        "award": "Chair's Best Talk Award",
+        "awardType": "Recipient",
+        "paper": "C.6",
+        "location": "AAAI Conference on Human Computation & Crowdsourcing (HCOMP)"
+    },
+    {
         "endDate": "2022",
         "award": "Doctoral Colloquium Fellowship",
-        "awardType": "Participant & Recipient",
+        "awardType": "(~$4000)",
         "location": "IEEE Visualization & Visual Analytics Conference"
     },
     {

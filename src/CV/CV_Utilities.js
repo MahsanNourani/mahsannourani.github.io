@@ -365,3 +365,35 @@ export const CVMentoring = (props) => {
         </div>
     )
 }
+
+export const CVGrants = (props) => {
+    return (
+
+        <div className='row'>
+            <div className='col-md-2 px-0'>
+                <p className={`${styles.dateRange} float-right`}>
+                    {/* {props.startDate} &mdash; {props.endDate} */}
+                    {/* The above commented codde generates a simple date range. The one below creates a range or single date depending one whether there's a start date or not.*/}
+                    {props.startDate ? `${props.startDate} \u2014 ${props.endDate}` : `${props.endDate}`}
+                </p>
+            </div>
+            <div className='col-md-10 mb-2'>
+                <div className='row'>
+                    <div className={`col-md-12 ${styles.lessHighlightedTextDark}`}>
+                        <span className={`${styles.highlightedTextDark}`}>{props.fundingInstitute}
+                            <span>{`: `}</span>
+                            <span className={styles.lessHighlightedTextDark}>{props.title}</span>
+                        </span>
+                    </div>
+                    <div className={`col-md-12 ${styles.lessHighlightedTextDark}`}>
+                        <span>{`PI(s): ${props.PIs}`}</span>
+                        <span>{' \u2014 '}</span>
+                        {props.total && <span> {`total: ${props.total} \u2014`}</span>}
+                        <span> {`Responsible for: ${props.responsible}`}</span>
+                        {/* <span className={styles.lessHighlightedTextDark}>{props.title}</span> */}
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}

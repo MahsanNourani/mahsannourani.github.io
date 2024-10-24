@@ -87,6 +87,18 @@
         "ID": "C.",
         "list": [
             {
+                "title": "User Profiling in Human-AI Design: An Empirical Case Study of Anchoring Bias, Individual Differences, and AI Attitudes",
+                "authors": "<b class='highlighted-name'> Mahsan Nourani</b>, Amal Hashky, Eric Ragan",
+                "journal": "In AAAI Conference on Human Computation and Crowdsourcing (HCOMP).",
+                "year": "2024",
+                "awardType": 1,
+                "award": "Chair's Best Talk Award",
+                "id": "C.6",
+                "link": "https://ojs.aaai.org/index.php/HCOMP/article/view/31608",
+                "nickname": "Profiling2024",
+                "type": "Conference Paper"
+            },
+            {
                 "title": "Anchoring Bias Affects Mental Model Formation and User Reliance in Explainable AI Systems",
                 "authors": "<b class='highlighted-name'> Mahsan Nourani</b>, Chiradeep Roy, Jeremy Block, Donald Honeycutt, Tahrima Rahman, Eric Ragan, Vibhav Gogate",
                 "journal": "26th International Conference on Intelligent User Interfaces (IUI).",

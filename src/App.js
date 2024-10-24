@@ -44,7 +44,7 @@ function App() {
       {!resumeOnlyMode && <hr />}
       {!resumeOnlyMode &&
         <div className="row text-center">
-          <p className="mx-auto" style={{ color: "var(--red-cabin)", fontSize: "10px" }}><i><i className="far fa-copyright"></i> {(new Date()).getFullYear()} Mahsan Nourani. All Rights Reserved. Updated October 2023.</i></p>
+          <p className="mx-auto" style={{ color: "var(--red-cabin)", fontSize: "10px" }}><i><i className="far fa-copyright"></i> {(new Date()).getFullYear()} Mahsan Nourani. All Rights Reserved. Updated October 2024.</i></p>
         </div>
       }
     </div>

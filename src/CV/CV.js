@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './CV.css'
-import { ContactItem, CVEducation, ResearchExperience, CVPerson, CVAwards, CVPublication, CVTalk, CVTeaching, CVService, CVMentoring } from './CV_Utilities';
+import { ContactItem, CVEducation, ResearchExperience, CVPerson, CVAwards, CVPublication, CVTalk, CVTeaching, CVService, CVMentoring, CVGrants } from './CV_Utilities';
 import publications from './PublicationsNew.json';
 import talks from './Talks.json';
 import awards from './Awards.json';
@@ -8,6 +8,7 @@ import teaching from './Teaching.json';
 import service from './Service.json';
 import volunteer from './Volunteer.json';
 import mentees from './Mentoring.json';
+import grants from './Funding.json';
 import { v4 as uuidv4 } from 'uuid';
 
 class CV extends Component {
@@ -25,7 +26,7 @@ class CV extends Component {
 
         let contactInfo = [
             { icon: "fa fa-home", link: "https://mahsan.page", value: "www.mahsan.page" },
-            { icon: "fa fa-envelope", link: "mailto:mahsannourani@ufl.edu", value: "mahsannourani@ufl.edu" },
+            { icon: "fa fa-envelope", link: "mailto:m.nourani@northeastern.edu", value: "m.nourani@northeastern.edu" },
             { icon: "fa fa-graduation-cap", link: "https://scholar.google.com/citations?user=tf4o6WYAAAAJ&hl=en&oi=ao", value: "Google Scholar" },
             { icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/mahsannourani", value: "LinkedIn" },
             { icon: "fab fa-github", link: "https://github.com/mahsannourani", value: "Github" },
@@ -154,10 +155,31 @@ class CV extends Component {
         })
 
         let menteeList = mentees.map((item, index) => {
+            let list = item.students.map((mentee, idx) => {
+                return <CVMentoring key={uuidv4()}  {...mentee} />
+            })
             return (
-                <CVMentoring key={uuidv4()} {...item} />
+                <React.Fragment key={uuidv4()}>
+                    <h4 className='mb-1 subsectionTitle'>{item.title}</h4>
+                    {/* {item.misc && <p>{item.misc}</p>} */}
+                    {list}
+                </React.Fragment>
             )
         })
+
+        let grantsList = grants.map((item, index) => {
+            let list = item.awards.map((grant, idx) => {
+                return <CVGrants key={uuidv4()}  {...grant} />
+            })
+            return (
+                <React.Fragment key={uuidv4()}>
+                    <h4 className='mb-1 subsectionTitle'>{item.title}</h4>
+                    {/* {item.misc && <p>{item.misc}</p>} */}
+                    {list}
+                </React.Fragment>
+            )
+        })
+
         const cv = "Mahsan_CV";
 
         const url = new URL(window.location.href);
@@ -187,7 +209,7 @@ class CV extends Component {
                 </div>
 
                 {/* horizontal line after the contact */}
-                <hr className="mt-3 mb-2" />
+                {/* <hr className="mt-3 mb-2" />  */}
 
                 {/* <hr className="mt-3 mb-2" /> */}
                 <h3 className='mb-2 mt-2 sectionTitle eight'>Education
@@ -206,6 +228,11 @@ class CV extends Component {
                 </h3>
                 {awardList}
 
+                <h3 className='mb-2 mt-2 sectionTitle eight'>Grants
+                    {/* <span className='line'></span> */}
+                </h3>
+                {grantsList}
+
                 <h3 className='mb-2 mt-2 sectionTitle eight'>Publications
                     {/* <span className='line'></span> */}
                 </h3>
@@ -221,7 +248,7 @@ class CV extends Component {
                 </h3>
                 {teachingList}
 
-                <h3 className='mb-2 mt-2 sectionTitle eight'>Mentoring Experience
+                <h3 className='mb-2 mt-2 sectionTitle eight'>Supervised Mentees and Students
                     {/* <span className='line'></span> */}
                 </h3>
                 {menteeList}

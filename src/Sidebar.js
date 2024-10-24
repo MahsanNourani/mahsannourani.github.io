@@ -8,7 +8,7 @@ export default class Sidebar extends Component {
     super(props);
 
     this.state = {
-      imageSource: "/me.JPG",
+      imageSource: "/me.jpg",
       name: "Mahsan Nourani",
       position: "Research Assistant Professor",
       education: "Ph.D., Computer Science",

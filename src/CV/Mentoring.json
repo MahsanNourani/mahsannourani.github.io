@@ -1,22 +1,74 @@
 [
     {
-        "mentee": "Donald Honeycutt",
-        "startDate": "2019",
-        "endDate": "2021",
-        "position": "Ph.D. student at University of Florida",
-        "info": "As the project lead, I taught him the ropes of doing research in the first 2 years of their PhD."
+        "title": "Current Ph.D. Students",
+        "students": [
+            {
+                "mentee": "Shira Michel",
+                "startDate": "2024",
+                "endDate": "Present",
+                "position": "Khoury College of Computer Science"
+            },
+            {
+                "mentee": "Aditi Krishna",
+                "startDate": "2024",
+                "endDate": "Present",
+                "position": "Khoury College of Computer Science"
+            },
+            {
+                "mentee": "Xinyi Liu",
+                "startDate": "2024",
+                "endDate": "Present",
+                "position": "Khoury College of Computer Science"
+            }
+        ]
     },
     {
-        "mentee": "Jeremy Block",
-        "startDate": "2019",
-        "endDate": "2021",
-        "position": "Ph.D. student at University of Florida",
-        "info": "As the project lead, I taught him the ropes of doing research in the first 2 years of their PhD."
+        "title": "Undergraduate Researchers and Co-ops",
+        "students": [
+            {
+                "mentee": "Lien Nguyen",
+                "position": "Computer Science BSc. student at Northeastern University",
+                "endDate": "Summer & Fall 2024",
+                "info": "Undergraduate Co-op researcher"
+            },
+            {
+                "mentee": "Ezekiel Ajayi",
+                "endDate": "Summer 2019",
+                "position": "Computer Engineering BE. student at Northeastern University",
+                "info": "Undergraduate Summer REU (NSF's program, Research Experience for Undergraduates)."
+            }
+        ]
     },
     {
-        "mentee": "Ezekiel Ajayi",
-        "endDate": "Summer 2019",
-        "position": "BE. student at University of Maryland, Baltimore County",
-        "info": "Mentor through the NSF's Research Experience for Undergraduates (REU) program."
+        "title": "Ph.D. Dissertation Committee",
+        "students": [
+            {
+                "mentee": "Mallak Alkhathlan",
+                "startDate": "2023",
+                "endDate": "present",
+                "position": "Computer Science PhD student at Worcester Polytechnic Institute (WPI)",
+                "info": "External Dissertation Committee (Chairs: Elke Rundensteiner & Lane Harrison)",
+                "chair": "Elke Rundensteiner, Lane Harrison"
+            }
+        ]
+    },
+    {
+        "title": "Other Research Mentoring",
+        "students": [
+            {
+                "mentee": "Donald Honeycutt",
+                "startDate": "2019",
+                "endDate": "2021",
+                "position": "Ph.D. student at University of Florida",
+                "info": "Mentored junior PhD student as senior PhD."
+            },
+            {
+                "mentee": "Jeremy Block",
+                "startDate": "2019",
+                "endDate": "2021",
+                "position": "Ph.D. student at University of Florida",
+                "info": "Mentored junior PhD student as senior PhD."
+            }
+        ]
     }
 ]

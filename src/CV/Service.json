@@ -3,6 +3,12 @@
         "title": "Organizer",
         "where": [
             {
+                "location": "IEEE VIS Workshop on evaluation and BEyond - methodoLogIcal approaches for Visualization (<b>BELIV</b>)",
+                "year": "2024",
+                "link": "https://beliv-workshop.github.io/index.html",
+                "otherRole": "Session Chair"
+            },
+            {
                 "location": "IEEE VIS Workshop on TRust and EXpertise in Visualization (<b>TREX</b>)",
                 "year": "2022, 2021, 2020",
                 "link": "https://trexvis.github.io/Workshop2022/",
@@ -18,6 +24,22 @@
     {
         "title": "Program Committee",
         "where": [
+            {
+                "location": "AAAI Conference on Human Computation & Crowdsourcing (<b>AAAI HCOMP</b>)",
+                "link": "https://www.humancomputation.com/",
+                "year": "2024"
+            },
+            {
+                "location": "IEEE VIS Workshop on evaluation and BEyond - methodoLogIcal approaches for Visualization (<b>BELIV</b>)",
+                "year": "2024",
+                "link": "https://beliv-workshop.github.io/index.html",
+                "otherRole": "Session Chair"
+            },
+            {
+                "location": "ACM Conference on Fairness, Accountability, and Transparency (<b>ACM FAccT</b>)",
+                "link": "https://facctconference.org/",
+                "year": "2023"
+            },
             {
                 "location": "IEEE VIS Workshop on TRust and EXpertise in Visualization (<b>TREX</b>)",
                 "link": "https://trexvis.github.io/Workshop2022/",
@@ -40,34 +62,40 @@
         "misc": "I am actively reviewing for HCI, Visualization, and Human-centered AI/XAI conferences and journals.",
         "where": [
             {
-                "location": "IEEE Transactions on Visualization and Computer Graphics (<b>TVCG)</b>",
+                "location": "IEEE Transactions on Visualization and Computer Graphics (<b>IEEE TVCG</b>)",
                 "link": "https://www.computer.org/csdl/journal/tg",
                 "year": "2022, 2021",
                 "venue": "Journal"
             },
             {
-                "location": "ACM Conference on Computer-Supported Cooperative Work And Social Computing (<b>CSCW</b>)",
+                "location": "ACM Conference on Computer-Supported Cooperative Work And Social Computing (<b>ACM CSCW</b>)",
                 "link": "https://cscw.acm.org/",
                 "year": "2023",
                 "venue": "Journal"
             },
             {
-                "location": "IEEE Visualization and Visual Analytics Conference (<b>VIS</b>)",
+                "location": "IEEE Visualization and Visual Analytics Conference (<b>IEEE VIS</b>)",
                 "link": "https://www.ieeevis.org/",
                 "year": "2022, 2021",
                 "venue": "Conference"
             },
             {
-                "location": "ACM Conference on Human Factors in Computing Systems (<b>CHI</b>)",
+                "location": "ACM Conference on Human Factors in Computing Systems (<b>ACM CHI</b>)",
                 "link": "https://dl.acm.org/conference/chi",
-                "year": "2024, 2023, 2022, 2021",
+                "year": "Every year since 2021",
                 "venue": "Conference"
             },
             {
-                "location": "ACM Interaction Design and Children Conference  (<b>IDC</b>)",
+                "location": "ACM Interaction Design and Children Conference  (<b>ACM IDC</b>)",
                 "link": "https://dl.acm.org/conference/chi",
                 "year": "2023",
                 "venue": "Conference"
+            },
+            {
+                "location": "Proceedings of the National Academy of Sciences of the United States of America (<b>PNAS</b>)",
+                "link": "https://www.pnas.org/",
+                "year": "2024",
+                "venue": "Journal"
             },
             {
                 "location": "Workshop on Visualization for AI Explainability (<b>VISxAI</b>)",

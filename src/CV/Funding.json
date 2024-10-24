@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Current Grant Support",
+        "awards": [
+            {
+                "title": "Healthcare Enabled by AI in Real Time: HEA(RT)",
+                "fundingInstitute": "Northeastern Impact Engines Grant",
+                "startDate": "Jan 2024",
+                "endDate": "Dec 2024",
+                "PIs": "Rai Winslow, Gene Tunik",
+                "responsible": "~$80,000"
+            }
+        ]
+    },
+    {
+        "title": "Completed Grant Support",
+        "awards": [
+            {
+                "title": "AI Health Advisor",
+                "fundingInstitute": "Santovia Health Partnership",
+                "startDate": "May 2024",
+                "endDate": "Oct 2024",
+                "total": "$200,000",
+                "PIs": "Gene Tunik",
+                "responsible": "~$13,000"
+            }
+        ]
+    }
+]
