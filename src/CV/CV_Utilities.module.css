@@ -85,13 +85,16 @@
 .dateRange {
     font-size: 13px;
     font-weight: 600;
+    line-height: 1.6rem;
 }
 
 .dateRangeRed {
     font-size: 13px;
     font-weight: 600;
     color: var(--red-cabin);
+    line-height: 1.4rem;
 }
+
 
 @media (min-width:576px) {}
 

@@ -160,6 +160,16 @@
         "ID": "P.",
         "list": [
             {
+                "title": "Predictive Analytics in Cardiothoracic Care: Enhancing Outcomes with the Healthcare Enabled by Artificial Intelligence in Real Time (HEART) Project",
+                "authors": "Felistas Mazhude, Robert S. Kramer, Anne Hicks, Qingchu Jin, Melanie Tory, Jaime B. Rabb, <b class='highlighted-name'> Mahsan Nourani</b>, Douglas B. Sawyer, Raimond L. Winslow",
+                "journal": "Journal of Maine Medical Center (JMMC).",
+                "year": "2024",
+                "link": "https://knowledgeconnection.mainehealth.org/cgi/viewcontent.cgi?article=1195&context=jmmc",
+                "id": "P.6",
+                "nickname": "HEART2024",
+                "type": "Article"
+            },
+            {
                 "title": "Shadows of the Past: The Effects of User's Past Experiences and Expectations on Human-AI Partnership",
                 "authors": "<b class='highlighted-name'> Mahsan Nourani</b>",
                 "journal": "IEEE Visualization and Visual Analytics Conference, Doctoral Colloquium (DC).",
@@ -209,15 +219,35 @@
         ]
     },
     {
-        "title": "Pre-prints",
+        "title": "Press & Media",
         "ID": "A.",
+        "list": [
+            {
+                "title": "Revolutionizing Patient Engagement with AI: Case Study",
+                "journal": "Northeastern Institute for Experiential AI",
+                "year": "2024",
+                "link": "https://ai.northeastern.edu/news/revolutionizing-patient-engagement-with-ai-case-study",
+                "type": "press"
+            },
+            {
+                "title": "Seven International CISE Students Receive Outstanding Achievement Awards",
+                "journal": "UF CISE News",
+                "year": "2021",
+                "link": "https://www.cise.ufl.edu/seven-international-cise-students-receive-outstanding-achievement-awards/",
+                "type": "press"
+            }
+        ]
+    },
+    {
+        "title": "Pre-prints",
+        "ID": "X.",
         "list": [
             {
                 "title": "Don't Explain without Verifying Veracity: An Evaluation of Explainable AI with Video Activity Recognition",
                 "authors": "<b class='highlighted-name'> Mahsan Nourani</b>, Chiradeep Roy, Tahrima Rahman, Eric Ragan, Nicholas Ruozzi, Vibhav Gogate",
                 "journal": "arXiv:2005.02335",
                 "year": "2020",
-                "id": "A.1",
+                "id": "X.1",
                 "type": "Pre-print"
             }
         ]

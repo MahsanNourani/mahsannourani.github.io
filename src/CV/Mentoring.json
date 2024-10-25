@@ -6,19 +6,19 @@
                 "mentee": "Shira Michel",
                 "startDate": "2024",
                 "endDate": "Present",
-                "position": "Khoury College of Computer Science"
+                "position": "Khoury College of Computer Science (NU)"
             },
             {
                 "mentee": "Aditi Krishna",
                 "startDate": "2024",
                 "endDate": "Present",
-                "position": "Khoury College of Computer Science"
+                "position": "Khoury College of Computer Science (NU)"
             },
             {
                 "mentee": "Xinyi Liu",
                 "startDate": "2024",
                 "endDate": "Present",
-                "position": "Khoury College of Computer Science"
+                "position": "Khoury College of Computer Science (NU)"
             }
         ]
     },
@@ -27,14 +27,14 @@
         "students": [
             {
                 "mentee": "Lien Nguyen",
-                "position": "Computer Science BSc. student at Northeastern University",
+                "position": "Computer Science BSc. student at Northeastern University (NU)",
                 "endDate": "Summer & Fall 2024",
                 "info": "Undergraduate Co-op researcher"
             },
             {
                 "mentee": "Ezekiel Ajayi",
                 "endDate": "Summer 2019",
-                "position": "Computer Engineering BE. student at Northeastern University",
+                "position": "Computer Engineering BE. student at University of Maryland, Baltimore County (UMBC)",
                 "info": "Undergraduate Summer REU (NSF's program, Research Experience for Undergraduates)."
             }
         ]
@@ -59,14 +59,14 @@
                 "mentee": "Donald Honeycutt",
                 "startDate": "2019",
                 "endDate": "2021",
-                "position": "Ph.D. student at University of Florida",
+                "position": "Ph.D. student at University of Florida (UF)",
                 "info": "Mentored junior PhD student as senior PhD."
             },
             {
                 "mentee": "Jeremy Block",
                 "startDate": "2019",
                 "endDate": "2021",
-                "position": "Ph.D. student at University of Florida",
+                "position": "Ph.D. student at University of Florida (UF)",
                 "info": "Mentored junior PhD student as senior PhD."
             }
         ]
