@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.adc1ab92.css",
-    "main.js": "/static/js/main.efbc4b86.js",
+    "main.css": "/static/css/main.b352e39c.css",
+    "main.js": "/static/js/main.bde50fb5.js",
     "static/media/Benda2023Evaluation.pdf": "/static/media/Benda2023Evaluation.91c9d74c2c6b512b2495.pdf",
     "static/media/Mahsan2023Dissertation.pdf": "/static/media/Mahsan2023Dissertation.0aaef1ceb23d0cb2cdb8.pdf",
     "static/media/Roy2021Applied.pdf": "/static/media/Roy2021Applied.d637ca0a7d80105320f5.pdf",
@@ -13,7 +13,7 @@
     "static/media/Profiling2024.pdf": "/static/media/Profiling2024.8b69a3e6030ac37a8e7a.pdf",
     "static/media/DETOXER2022.pdf": "/static/media/DETOXER2022.d4d76623dc11735fb5aa.pdf",
     "static/media/Nourani2022TiiS.pdf": "/static/media/Nourani2022TiiS.ee47542cfc932b925e44.pdf",
-    "static/media/Mahsan_CV.pdf": "/static/media/Mahsan_CV.7f920e50f0331e687320.pdf",
+    "static/media/Mahsan_CV.pdf": "/static/media/Mahsan_CV.29d3dafae692d8800148.pdf",
     "static/media/XAI_3.png": "/static/media/XAI_3.2023b3c0e924b9ebea9b.png",
     "static/media/QingMovie2020.pdf": "/static/media/QingMovie2020.230fc6d0a278556f7816.pdf",
     "static/media/Pineapple.png": "/static/media/Pineapple.a7d59460f1c5508071cb.png",
@@ -24,6 +24,7 @@
     "static/media/Roy2023Explainable.pdf": "/static/media/Roy2023Explainable.a1f4d5760350c01af70d.pdf",
     "static/media/Romadoro2021.pdf": "/static/media/Romadoro2021.3e5d91fefeafd3886749.pdf",
     "static/media/RoyExSS2019.pdf": "/static/media/RoyExSS2019.f7ab9aefefbe60a78c94.pdf",
+    "static/media/HEART2024.pdf": "/static/media/HEART2024.ce0c92b42bc5df0b7d15.pdf",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Vis_1.png": "/static/media/Vis_1.7278f946e4227c9c47da.png",
     "static/media/DC2022.pdf": "/static/media/DC2022.03499dd48b62f14d6c96.pdf",
@@ -36,11 +37,11 @@
     "static/media/Vis_2.png": "/static/media/Vis_2.8286818b53f81d0f3a4e.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/index.html",
-    "main.adc1ab92.css.map": "/static/css/main.adc1ab92.css.map",
-    "main.efbc4b86.js.map": "/static/js/main.efbc4b86.js.map"
+    "main.b352e39c.css.map": "/static/css/main.b352e39c.css.map",
+    "main.bde50fb5.js.map": "/static/js/main.bde50fb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.adc1ab92.css",
-    "static/js/main.efbc4b86.js"
+    "static/css/main.b352e39c.css",
+    "static/js/main.bde50fb5.js"
   ]
 }
