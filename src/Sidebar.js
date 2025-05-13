@@ -22,7 +22,7 @@ export default class Sidebar extends Component {
         "Human-Centered AI/Explainable AI",
         "Visual Analytics",
         "Human-AI Interaction",
-        "Resposible AI"
+        "Responsible AI"
       ],
       linkIcons: [
         {
