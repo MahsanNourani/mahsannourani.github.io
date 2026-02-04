@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.b352e39c.css",
-    "main.js": "/static/js/main.ecf69c8c.js",
+    "main.js": "/static/js/main.1b87710d.js",
     "static/media/Benda2023Evaluation.pdf": "/static/media/Benda2023Evaluation.91c9d74c2c6b512b2495.pdf",
     "static/media/Mahsan2023Dissertation.pdf": "/static/media/Mahsan2023Dissertation.0aaef1ceb23d0cb2cdb8.pdf",
     "static/media/Roy2021Applied.pdf": "/static/media/Roy2021Applied.d637ca0a7d80105320f5.pdf",
+    "static/media/Heart2026.pdf": "/static/media/Heart2026.5efdf71f6257519634c2.pdf",
     "static/media/BolteSplits2020.pdf": "/static/media/BolteSplits2020.5cb4fa73993db27e6edc.pdf",
     "static/media/NouraniBugs2020.pdf": "/static/media/NouraniBugs2020.7ba0b4c308601971b960.pdf",
     "static/media/NouraniPineapple2021.pdf": "/static/media/NouraniPineapple2021.44eace612594539c6a8a.pdf",
     "static/media/LBWPineapple2020.pdf": "/static/media/LBWPineapple2020.45943b9b90da362f8578.pdf",
     "static/media/NouraniQcumber.pdf": "/static/media/NouraniQcumber.5723a80e95fd5afc4bd7.pdf",
-    "static/media/Mahsan_CV.pdf": "/static/media/Mahsan_CV.9da907f5e513b58df992.pdf",
+    "static/media/Mahsan_CV.pdf": "/static/media/Mahsan_CV.0e18d284af0865f09530.pdf",
     "static/media/Profiling2024.pdf": "/static/media/Profiling2024.8b69a3e6030ac37a8e7a.pdf",
     "static/media/DETOXER2022.pdf": "/static/media/DETOXER2022.d4d76623dc11735fb5aa.pdf",
     "static/media/Nourani2022TiiS.pdf": "/static/media/Nourani2022TiiS.ee47542cfc932b925e44.pdf",
+    "static/media/Michel2026.pdf": "/static/media/Michel2026.b7dc3169d73f441984d3.pdf",
     "static/media/XAI_3.png": "/static/media/XAI_3.2023b3c0e924b9ebea9b.png",
     "static/media/QingMovie2020.pdf": "/static/media/QingMovie2020.230fc6d0a278556f7816.pdf",
     "static/media/Pineapple.png": "/static/media/Pineapple.a7d59460f1c5508071cb.png",
@@ -38,10 +40,10 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/index.html",
     "main.b352e39c.css.map": "/static/css/main.b352e39c.css.map",
-    "main.ecf69c8c.js.map": "/static/js/main.ecf69c8c.js.map"
+    "main.1b87710d.js.map": "/static/js/main.1b87710d.js.map"
   },
   "entrypoints": [
     "static/css/main.b352e39c.css",
-    "static/js/main.ecf69c8c.js"
+    "static/js/main.1b87710d.js"
   ]
 }
