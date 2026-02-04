@@ -16,6 +16,14 @@
         "title": "Completed Grant Support",
         "awards": [
             {
+                "title": "Market Analysis Interface Design for Traveling-Healthcare Staffing",
+                "fundingInstitute": "EmpoweRx Inc.",
+                "startDate": "Jan 2025",
+                "endDate": "Jul 2025",
+                "total": "$25,000",
+                "PIs": "Mahsan Nourani"
+            },
+            {
                 "title": "AI Health Advisor",
                 "fundingInstitute": "Santovia Health Partnership",
                 "startDate": "May 2024",

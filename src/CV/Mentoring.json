@@ -6,16 +6,10 @@
                 "mentee": "Shira Michel",
                 "startDate": "2024",
                 "endDate": "Present",
-                "position": "Khoury College of Computer Science (NU)"
+                "position": "Ph.D. Candidate, Khoury College of Computer Science (NU)"
             },
             {
                 "mentee": "Aditi Krishna",
-                "startDate": "2024",
-                "endDate": "Present",
-                "position": "Khoury College of Computer Science (NU)"
-            },
-            {
-                "mentee": "Xinyi Liu",
                 "startDate": "2024",
                 "endDate": "Present",
                 "position": "Khoury College of Computer Science (NU)"
@@ -25,6 +19,12 @@
     {
         "title": "Undergraduate Researchers and Co-ops",
         "students": [
+            {
+                "mentee": "Sara Ahmed",
+                "position": "Computer Science BSc. student at Northeastern University (NU)",
+                "endDate": "Winter & Spring 2025",
+                "info": "Undergraduate Co-op researcher"
+            },
             {
                 "mentee": "Lien Nguyen",
                 "position": "Computer Science BSc. student at Northeastern University (NU)",
@@ -55,6 +55,12 @@
     {
         "title": "Other Research Mentoring",
         "students": [
+            {
+                "mentee": "Lucy Havens, Ph.D.",
+                "startDate": "2025",
+                "endDate": "present",
+                "position": "Postdoctoral Research Fellow, The Roux Institute"
+            },
             {
                 "mentee": "Donald Honeycutt",
                 "startDate": "2019",

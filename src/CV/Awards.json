@@ -1,5 +1,18 @@
 [
     {
+        "endDate": "2026",
+        "award": "Special Recognition for Highly Userful Review",
+        "awardType": "Recipient",
+        "location": "ACM Conference on Intelligent User Interfaces (IUI)"
+    },
+    {
+        "endDate": "2024",
+        "award": "Chair's Best Talk Award",
+        "awardType": "Recipient",
+        "paper": "C.6",
+        "location": "AAAI Conference on Human Computation & Crowdsourcing (HCOMP)"
+    },
+    {
         "endDate": "2024",
         "award": "Chair's Best Talk Award",
         "awardType": "Recipient",
@@ -27,7 +40,7 @@
     },
     {
         "startDate": "2021",
-        "endDate": "2023",
+        "endDate": "2026",
         "award": "Special Recognition for Outstanding Review",
         "awardType": "Recipient",
         "location": "ACM CHI Conference on Human Factors in Computing Systems"

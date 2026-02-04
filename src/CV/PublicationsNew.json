@@ -87,6 +87,25 @@
         "ID": "C.",
         "list": [
             {
+                "title": "Amplifying Rural Educators’ Perspectives: A Qualitative Study on the Impacts of Generative AI in Rural U.S. High Schools",
+                "authors": "Shira Michel, Ben Taylor, Sabrina Parra Díaz, Joseph B. Wiggins, Ed Finn, <b class='highlighted-name'> Mahsan Nourani</b>",
+                "journal": "In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)",
+                "year": "2026",
+                "id": "C.8",
+                "nickname": "Michel2026",
+                "type": "Conference Paper"
+            },
+            {
+                "title": "The HEART Interface: Visualizing Risk Score Uncertainty in the Cardiothoracic ICU",
+                "authors": "<b class='highlighted-name'> Mahsan Nourani</b>, Lien Nguyen, Carey Barry, Qingchu Jin, Melanie Tory",
+                "journal": "31st International Conference on Intelligent User Interfaces (IUI).",
+                "year": "2026",
+                "id": "C.7",
+                "nickname": "Heart2026",
+                "video": "https://youtu.be/0h4I3gjWzT0",
+                "type": "Conference Paper"
+            },
+            {
                 "title": "User Profiling in Human-AI Design: An Empirical Case Study of Anchoring Bias, Individual Differences, and AI Attitudes",
                 "authors": "<b class='highlighted-name'> Mahsan Nourani</b>, Amal Hashky, Eric Ragan",
                 "journal": "In AAAI Conference on Human Computation and Crowdsourcing (HCOMP).",
@@ -219,9 +238,23 @@
         ]
     },
     {
-        "title": "Press & Media",
+        "title": "Press, Media, & Case Studies",
         "ID": "A.",
         "list": [
+            {
+                "title": "An Innovative User Interface Helping Healthcare Professionals Get Hired",
+                "journal": "The Roux Institute",
+                "year": "2025",
+                "link": "https://roux.northeastern.edu/nu_casestudy/empowerx-case-study/",
+                "type": "press"
+            },
+            {
+                "title": "Human-Centered AI Research Boosts Patient Education Chatbot",
+                "journal": "The Roux Institute",
+                "year": "2025",
+                "link": "https://roux.northeastern.edu/nu_casestudy/santovia-case-study/",
+                "type": "press"
+            },
             {
                 "title": "Revolutionizing Patient Engagement with AI: Case Study",
                 "journal": "Northeastern Institute for Experiential AI",

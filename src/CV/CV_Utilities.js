@@ -402,9 +402,9 @@ export const CVGrants = (props) => {
                     </div>
                     <div className={`col-md-12 ${styles.lessHighlightedTextDark}`}>
                         <span>{`PI(s): ${props.PIs}`}</span>
-                        <span>{' \u2014 '}</span>
-                        {props.total && <span> {`total: ${props.total} \u2014`}</span>}
-                        <span> {`Responsible for: ${props.responsible}`}</span>
+                        {/* <span>{' '}</span> */}
+                        {props.total && <span> {` \u2014 total: ${props.total}`}</span>}
+                        {props.responsible && <span>  {`\u2014 Responsible for: ${props.responsible}`}</span>}
                         {/* <span className={styles.lessHighlightedTextDark}>{props.title}</span> */}
                     </div>
                 </div>

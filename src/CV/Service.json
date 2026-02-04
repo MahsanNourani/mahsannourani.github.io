@@ -4,7 +4,7 @@
         "where": [
             {
                 "location": "IEEE VIS Workshop on evaluation and BEyond - methodoLogIcal approaches for Visualization (<b>BELIV</b>)",
-                "year": "2024",
+                "year": "2026, 2024",
                 "link": "https://beliv-workshop.github.io/index.html",
                 "otherRole": "Session Chair"
             },
@@ -25,20 +25,25 @@
         "title": "Program Committee",
         "where": [
             {
+                "location": "ACM Conference on Intelligent User Interfaces (<b>ACM IUI</b>)",
+                "link": "https://iui.acm.org/",
+                "year": "2026"
+            },
+            {
+                "location": "ACM Conference on Fairness, Accountability, and Transparency (<b>ACM FAccT</b>)",
+                "link": "https://facctconference.org/",
+                "year": "2026, 2025, 2023"
+            },
+            {
                 "location": "AAAI Conference on Human Computation & Crowdsourcing (<b>AAAI HCOMP</b>)",
                 "link": "https://www.humancomputation.com/",
                 "year": "2024"
             },
             {
                 "location": "IEEE VIS Workshop on evaluation and BEyond - methodoLogIcal approaches for Visualization (<b>BELIV</b>)",
-                "year": "2024",
+                "year": "2026, 2024",
                 "link": "https://beliv-workshop.github.io/index.html",
                 "otherRole": "Session Chair"
-            },
-            {
-                "location": "ACM Conference on Fairness, Accountability, and Transparency (<b>ACM FAccT</b>)",
-                "link": "https://facctconference.org/",
-                "year": "2023"
             },
             {
                 "location": "IEEE VIS Workshop on TRust and EXpertise in Visualization (<b>TREX</b>)",
